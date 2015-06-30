@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.PageTitle = Model;
+
+    var controllerName = Url.RequestContext.RouteData.Values["controller"];
+}
+
+@section Scripts{
+    @Scripts.Render("~/Scripts/admin/Users/index.js")
+}
+
+<div class="main">
+    <h2 class="page-header">@Model</h2>
+
+    <p>
+        @Html.ActionLink("Создать", "Create", null, new { id = controllerName + "Create", @class = "btn btn-mb modal-form", @data_target_update = "#" + controllerName + "Grid" })
+    </p>
+
+    @{
+        Html.UpdatePanel("Grid", new { id = controllerName + "Grid", @class = "contentbody mvcgridpanel" });
+    }
+</div>

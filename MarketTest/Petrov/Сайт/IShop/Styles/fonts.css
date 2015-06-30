@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'CorporateACyrRegular';
+    src: url('../fonts/corporateacon-reg-webfont.eot');
+    src: url('../fonts/corporateacon-reg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/corporateacon-reg-webfont.woff') format('woff'),
+         url('../fonts/corporateacon-reg-webfont.ttf') format('truetype'),
+         url('../fonts/corporateacon-reg-webfont.svg#corporate_a_condensedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'CorporateACyrRegular';
+    src: url('../fonts/corpa_cyr_regular_0-webfont.eot');
+    src: url('../fonts/corpa_cyr_regular_0-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/corpa_cyr_regular_0-webfont.woff') format('woff'),
+         url('../fonts/corpa_cyr_regular_0-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'CorpA_condensed_Regular';
+    src: url('../fonts/CorpA_condensed_Regular.eot');
+    src: url('../fonts/CorpA_condensed_Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/CorpA_condensed_Regular.woff') format('woff'),
+         url('../fonts/CorpA_condensed_Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}

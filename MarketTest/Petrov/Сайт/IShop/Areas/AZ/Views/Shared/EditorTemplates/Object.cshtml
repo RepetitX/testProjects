@@ -1,0 +1,103 @@
+﻿@{
+    var controllerContext = new ControllerContext(ViewContext.RequestContext, ViewContext.Controller);
+}
+
+@if (ViewData.TemplateInfo.TemplateDepth > 1)
+{
+	@ViewData.ModelMetadata.SimpleDisplayText
+}
+else
+{ 
+    foreach (var prop in ViewData.ModelMetadata.Properties.Where(pm => pm.ShowForEdit && !ViewData.TemplateInfo.Visited(pm)))
+    {
+        var isHiddenByRole = false;
+            
+        if (prop.AdditionalValues.ContainsKey(ForRolesAttribute.Key))
+        {
+            var roles = prop.AdditionalValues[ForRolesAttribute.Key] as List<string>;
+
+            if (roles != null && roles.Any() && roles.All(r => !User.IsInRole(r)))
+            {  
+                @Html.Hidden(prop.PropertyName, prop.Model)
+                isHiddenByRole = true;
+            }
+        }
+
+        if (!isHiddenByRole && prop.HideSurroundingHtml)
+        {
+            @Html.Editor(prop.PropertyName)
+        }
+        else if (!isHiddenByRole)
+        {
+            <div class="form-group">
+                @if (prop.ModelType != typeof(bool))
+                {
+                    @Html.Label(prop.PropertyName)
+                }
+                
+                @if (prop.AdditionalValues.ContainsKey(DropDownListAttribute.Key))
+                {
+                    var dropDownListOptions = prop.AdditionalValues[DropDownListAttribute.Key] as Tuple<string, string, string>;
+
+                    if (dropDownListOptions == null)
+                    {
+                        throw new ArgumentNullException();
+                    }
+
+                    var sourceProperty = dropDownListOptions.Item1;
+                    var optionLabel = dropDownListOptions.Item2;
+                    var css = dropDownListOptions.Item3;
+
+                    var source = ViewData.ModelMetadata.Properties.First(x => x.PropertyName == sourceProperty).Model as IEnumerable<SelectListItem>;
+
+                    @Html.DropDownList(prop.PropertyName, source, optionLabel, new { @class = css + (prop.IsRequired ? " required" : "") + " form-control input-sm" })
+                }
+                else if (prop.AdditionalValues.ContainsKey(CheckBoxesListAttribute.Key))
+                {
+
+                    var checkBoxesListOptions = prop.AdditionalValues[CheckBoxesListAttribute.Key] as Tuple<string, string>;
+
+                    if (checkBoxesListOptions == null)
+                    {
+                        throw new ArgumentNullException();
+                    }
+
+                    var sourceProperty = checkBoxesListOptions.Item1;
+                    var css = checkBoxesListOptions.Item2;
+
+                    var source = ViewData.ModelMetadata.Properties.First(x => x.PropertyName == sourceProperty).Model as IEnumerable<SelectListItem>;
+
+                    <div class="well well-sm checkbox-list @css">
+                        @foreach (var item in source)
+                        {
+                            var name = string.Format("{0}[{1}]", prop.PropertyName, item.Value);
+                            var id = ViewData.TemplateInfo.GetFullHtmlFieldId(name);
+                            var fullName = ViewData.TemplateInfo.GetFullHtmlFieldName(name);
+                            <div class="checkbox">
+                                <label>
+                                    @Html.Hidden(prop.PropertyName + ".index", item.Value)
+                                    <input id="@id" type="checkbox" name="@fullName" value="@item.Value" @(item.Selected ? "checked=checked" : null) />
+                                    @item.Text
+                                </label>
+                            </div>
+                        }
+                    </div>
+                }
+                else
+                {
+                    @Html.Editor(prop.PropertyName, prop.TemplateHint)
+                }
+
+                @if (!string.IsNullOrEmpty(prop.Description))
+                {
+                    <p class="help-block">@prop.Description</p>
+                }
+
+                @if (prop.GetValidators(controllerContext).Any())
+                {
+                    @Html.ValidationMessage(prop.PropertyName)
+                }
+            </div>
+        }  
+    }
+}

@@ -1,0 +1,31 @@
+﻿<md-dialog aria-label="Выбор товара">
+    <form>
+        <md-toolbar>
+            <div class="md-toolbar-tools">
+                <h2>Выбор товара</h2>
+                <span flex></span>
+            </div>
+        </md-toolbar>
+        <md-dialog-content>
+
+            <md-progress-circular ng-show="isLoading" class="md-hue-2" md-mode="indeterminate"></md-progress-circular>
+
+            <md-list>
+                <md-list-item class="product md-3-line" ng-repeat="product in products" ng-click="addProduct(product)">
+                    <img ng-src="{{product.image}}" class="md-avatar" alt="{{product.title}}">
+                    <div class="md-list-item-text">
+                        <h3>{{ product.title }}</h3>
+                        <h4>{{ product.description }}</h4>
+                        <p>{{ product.price | currency:'₽':0 }}</p>
+                    </div>
+                </md-list-item>
+            </md-list>
+
+        </md-dialog-content>
+        <div class="md-actions" layout="row">
+            <md-button ng-click="close()" class="md-primary">
+                Закрыть
+            </md-button>
+        </div>
+    </form>
+</md-dialog>

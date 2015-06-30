@@ -1,0 +1,125 @@
+﻿@using Repetit.Tasks.Task1.Domain.Entities
+@model ListItemsModel
+           @{
+               decimal summOptions = 0;
+           }
+<div class="panel-heading">
+    <h3 style="font-size: 18px; color: blue">Редактирование заказа # @Model.OrderID</h3>
+</div>
+@if (TempData["message"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["message"]
+    </div>
+}
+    @using (Html.BeginForm())
+    {
+        @Html.ValidationSummary(true)
+        @Html.HiddenFor(m => m.Order.OrderID)
+        @Html.HiddenFor(m => m.Order.Id)
+        <table class="order" style="border: solid 1px #ddd;width: 100% ">
+            <tr><td>Дата заказа:</td><td>@Html.EditorFor(m => m.Order.CreatedDate)</td></tr>
+            <tr><td colspan="2">@Html.ValidationMessageFor(m => m.Order.CreatedDate)</td></tr>
+            <tr><td>Менеджер:</td><td>@Html.DropDownListFor(m => m.Order.ManagerUserID, (SelectList)ViewBag.users, "Выберите", new { @class = "form-control" })</td></tr>
+            <tr><td colspan="2">@Html.ValidationMessageFor(m => m.Order.ManagerUserID)</td></tr>
+
+            <tr><td>Адрес:</td><td>@Html.TextBoxFor(m => m.Order.Address, new { @class = "form-control" })</td></tr>
+            <tr><td colspan="2">@Html.ValidationMessageFor(m => m.Order.Address)</td></tr>
+
+            <tr><td>Контактные данные:</td><td>@Html.TextBoxFor(m => m.Order.ContactData, new { @class = "form-control" })</td></tr>
+            <tr><td colspan="2">@Html.ValidationMessageFor(m => m.Order.ContactData)</td></tr>
+
+            <tr><td>Комментарий:</td><td>@Html.TextBoxFor(m => m.Order.Comment, new { @class = "form-control" })</td></tr>
+            <tr><td colspan="2">@Html.ValidationMessageFor(m => m.Order.Comment)</td></tr>
+
+            <tr><td>Доставлен?</td><td align="left">@Html.CheckBoxFor(m => m.Order.IsDelivered, new { @class = "form-control" })</td></tr>
+            <tr><td colspan="2">@Html.ValidationMessageFor(m => m.Order.IsDelivered)</td></tr>
+
+            <tr height="20"><td colspan="2" style="text-align: center"><input type="submit" value="Сохранить" class="btn btn-success" /></td></tr>
+        </table>
+    }
+<div class="panel-heading">
+<h3 style="font-size: 16px; color: blue">Редактировать позиции заказа</h3>
+    </div>
+    <table class="table orders" id="tree">
+        <thead>
+            <tr><th>Наименование</th><th>Кол-во</th><th>Цена</th><th>Сумма</th><th></th><th></th></tr>
+        </thead>
+        @foreach (var item in Model.Items)
+        {
+            <tr data-itemid="@item.OrderItemID" id="node-@item.OrderItemID">
+                <td>@item.Product.Name</td>
+                <td>@item.Number</td>
+                <td>@item.Product.Price.ToString("C")</td>
+                <td>@((item.Product.Price * item.Number).ToString("C"))</td>
+                <td>@Html.ActionLink("Редактировать", "EditProduct", "Orders", new { item.OrderItemID }, new { @class = "a-edit-item btn btn-info" })</td>
+                <td>
+                    @using (Html.BeginForm("DeleteProductFromOrder", "Orders"))
+                    {
+                        @Html.HiddenFor(m => m.OrderID)
+                        @Html.Hidden("OrderItemID", item.OrderItemID)
+                        <input type="submit" value="Удалить" class="btn btn-danger" />
+                    }
+                </td>
+            </tr>
+            if (item.OrderOptions != null)
+            {
+                foreach (OrderOption option in item.OrderOptions)
+                {
+                    <tr class="child-of-node-@item.OrderItemID">
+                        <td>@option.Option.Name</td>
+                        <td>@option.Number</td>
+                        <td>@option.Option.Price</td>
+                        <td>@((option.Option.Price * option.Number).ToString("C"))</td>
+                        <td>@Html.ActionLink("Редактировать", "EditOption", "Orders", new { option.OrderOptionsID, item.ProductID }, new { @class = "edit-option btn btn-sm btn-info" })</td>
+                        <td>
+                            @using (Html.BeginForm("DeleteOption", "Orders"))
+                            {
+                                @Html.Hidden("OrderOptionsID", option.OrderOptionsID)
+                                @Html.Hidden("OrderID", Model.OrderID)
+                                <input type="submit" value="Удалить" class="btn btn-danger btn-sm" />
+                            }
+                        </td>
+                    </tr>
+                            summOptions += option.Option.Price * option.Number;
+                }
+                <tr class="child-of-node-@item.OrderItemID"><td colspan="6"><button class="btn btn-success btn-sm" onclick="$('#panel_addProduct').hide('slow'); $('#popup_edit_auto').hide();addOption('@item.OrderItemID','@Model.OrderID','@item.ProductID');">Добавить опцию</button></td></tr>
+            }
+        }
+        <tfoot>
+            <tr><td colspan="6" style="text-align: right; font-weight: bold; padding-right: 130px">Итого : @((summOptions + Model.Items.Sum(it => it.Number * it.Product.Price)).ToString("C"))</td></tr>
+        </tfoot>
+    </table>
+    <div class="text-center">
+        <button class="btn btn-success" onclick="$('#panel_addProduct').show('slow'); $('#popup_edit_auto').hide();">Добавить продукт в заказ</button>
+    </div>
+
+    <div class="popup" id="panel_addProduct" style="height:700px; width:650px !important; display:none; font-size:8pt; font-family:Verdana, Tahoma, Sans-Serif;color:#777777">
+        <div class="popup-top">
+            <div class="popup-center">
+                <a class="close" id="a_template" href="javascript:void(0);" onclick="$('#panel_addProduct').fadeOut();" style="margin-top:16px !important; margin-left:32px !important; z-index:1">Закрыть</a>
+                <div id="remote_call_result">
+                    @{Html.RenderPartial("AddProduct", new AddItemModel() { OrderID = Model.OrderID, Number = 1 });}
+                </div>
+            </div>
+        </div>
+        <div class="popup-bottom">
+        </div>
+    </div>
+
+    <div class="popup" id="popup_edit_auto" style="height:700px; width:650px !important; display:none; font-size:8pt; font-family:Verdana, Tahoma, Sans-Serif;color:#777777">
+        <div class="popup-top">
+            <div class="popup-center">
+                <a class="close" id="a_template_edit" href="javascript:void(0);" onclick="$('#popup_edit_auto').fadeOut();" style="margin-top:16px !important; margin-left:32px !important; z-index:1">Закрыть</a>
+                <div id="remote_call_result_edit">
+
+                </div>
+            </div>
+        </div>
+        <div class="popup-bottom">
+        </div>
+    </div>
+    @section scripts
+{
+        <script src="~/Scripts/products.js"></script>
+    }

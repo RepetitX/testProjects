@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7E592A1C-22BD-46A5-9D57-38C311AC1646}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IShop</RootNamespace>
+    <AssemblyName>IShop</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime">
+      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Mvc.Mailer, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\MvcMailer.4.5\lib\45\Mvc.Mailer.dll</HintPath>
+    </Reference>
+    <Reference Include="MvcSiteMapProvider">
+      <HintPath>..\packages\MvcSiteMapProvider.MVC5.Core.4.6.17\lib\net45\MvcSiteMapProvider.dll</HintPath>
+    </Reference>
+    <Reference Include="MvcSiteMapProvider.WebActivator">
+      <HintPath>..\packages\MvcSiteMapProvider.MVC5.4.6.17\lib\net45\MvcSiteMapProvider.WebActivator.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.6\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.2\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.2\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.2\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.2\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.2\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.2\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WebActivatorEx">
+      <HintPath>..\packages\WebActivatorEx.2.0.1\lib\net40\WebActivatorEx.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\stylesheet.css" />
+    <Content Include="Images\A_GT.jpg" />
+    <Content Include="Images\bg.jpg" />
+    <Content Include="Images\btn-bg.jpg" />
+    <Content Include="Images\checkbox_active_big.png" />
+    <Content Include="Images\checkbox_passive_big.png" />
+    <Content Include="Images\Emails\amg-logo.jpg" />
+    <Content Include="Images\Emails\ghost.jpg" />
+    <Content Include="Images\Emails\ghost.png" />
+    <Content Include="Images\Emails\logo.png" />
+    <Content Include="Images\Emails\QR-code.jpg" />
+    <Content Include="Images\Emails\registrate-btn.png" />
+    <Content Include="Images\Emails\spacer.gif" />
+    <Content Include="Images\Emails\yellow_car.jpg" />
+    <Content Include="Images\Emails\yellow_car_cropped.jpg" />
+    <Content Include="Images\Emails\yellow_car_cropped.png" />
+    <Content Include="Images\GT.jpg" />
+    <Content Include="Images\i.jpg" />
+    <Content Include="Images\icon_sprite.gif" />
+    <Content Include="Images\logo.gif" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\Mailings\arrow_right.gif" />
+    <Content Include="Images\Mailings\arrow_right_blue.gif" />
+    <Content Include="Images\Mailings\arrow_right_small.gif" />
+    <Content Include="Images\Mailings\bg.gif" />
+    <Content Include="Images\Mailings\bg_lifestyle.gif" />
+    <Content Include="Images\Mailings\bg_navigation.gif" />
+    <Content Include="Images\Mailings\fb_icon copy.png" />
+    <Content Include="Images\Mailings\gradient_topthemen.jpg" />
+    <Content Include="Images\Mailings\GT.jpg" />
+    <Content Include="Images\Mailings\icon_facebook.gif" />
+    <Content Include="Images\Mailings\icon_mail.gif" />
+    <Content Include="Images\Mailings\icon_twitter.gif" />
+    <Content Include="Images\Mailings\instagram-icon.jpg" />
+    <Content Include="Images\Mailings\instagram.png" />
+    <Content Include="Images\Mailings\map_Ukraina-01.jpg" />
+    <Content Include="Images\Mailings\Maybach.jpg" />
+    <Content Include="Images\Mailings\mb_logo.gif" />
+    <Content Include="Images\Mailings\spacer.gif" />
+    <Content Include="Images\Mailings\spacer_116.gif" />
+    <Content Include="Images\Mailings\spacer_141.gif" />
+    <Content Include="Images\Mailings\spacer_162.gif" />
+    <Content Include="Images\Mailings\spacer_25.gif" />
+    <Content Include="Images\Mailings\spacer_30.gif" />
+    <Content Include="Images\Mailings\youtube.jpg" />
+    <Content Include="Images\Maybach.jpg" />
+    <Content Include="Images\mb_logo.png" />
+    <Content Include="Images\popover_triangle_bottom.png" />
+    <Content Include="Images\radiobutton_active_big.png" />
+    <Content Include="Images\radiobutton_passive_big.png" />
+    <Content Include="Images\send-off.jpg" />
+    <Content Include="Images\send-on.jpg" />
+    <Content Include="Images\yamap\btn-bg.png" />
+    <Content Include="Images\yamap\citiesListLink_bg.png" />
+    <Content Include="Images\yamap\header-bg.jpg" />
+    <Content Include="Images\yamap\logo-circle.png" />
+    <Content Include="Images\yamap\logo.gif" />
+    <Content Include="Images\yamap\map-placeholder.jpg" />
+    <Content Include="Images\yamap\popover_triangle_bottom.png" />
+    <Content Include="Images\yamap\radio.png" />
+    <Content Include="Images\yamap\radio_checked.png" />
+    <Content Include="Images\yamap\rbHeader_bg.png" />
+    <Content Include="Images\yamap\region_menu_bg.jpg" />
+    <Content Include="Images\yamap\select-bg.png" />
+    <Content Include="index.html" />
+    <Content Include="Scripts\admin\common.common.js" />
+    <Content Include="Scripts\admin\common.grid.js" />
+    <Content Include="Scripts\admin\order\edit.js" />
+    <Content Include="Scripts\admin\order\index.js" />
+    <Content Include="Scripts\bootstrap-datetimepicker.js" />
+    <Content Include="Scripts\bootstrap-datetimepicker.min.js" />
+    <Content Include="Scripts\bootstrap-multiselect.js" />
+    <Content Include="Scripts\bootstrap3-typeahead.min.js" />
+    <Content Include="Scripts\cufon-yui.js" />
+    <Content Include="Scripts\dropdowns-enhancement.js" />
+    <Content Include="Scripts\bootstrap3-typeahead.js" />
+    <Content Include="Scripts\jquery-ui-1.10.2.min.js" />
+    <Content Include="Scripts\jquery.ui.datepicker-ru.min.js" />
+    <Content Include="Scripts\loadingIndicator.js" />
+    <Content Include="Scripts\messages_ru.js" />
+    <Content Include="Scripts\phone_mask.js" />
+    <Content Include="Styles\admin.css" />
+    <Content Include="Styles\bootstrap-datetimepicker.css" />
+    <Content Include="Styles\bootstrap-datetimepicker.min.css" />
+    <Content Include="Styles\bootstrap-multiselect.css" />
+    <Content Include="Styles\bootstrap-theme.css" />
+    <Content Include="Styles\bootstrap-theme.min.css" />
+    <Content Include="Styles\bootstrap.css" />
+    <Content Include="Styles\bootstrap.min.css" />
+    <Content Include="Styles\dropdowns-enhancement.css" />
+    <Content Include="Styles\fonts.css" />
+    <Content Include="Styles\ie.css" />
+    <Content Include="Styles\Iframe\Iframe.css" />
+    <Content Include="Styles\Iframe\jquery-ui-1.10.2.custom.min.css" />
+    <Content Include="Styles\images\admin_options_border_bg.jpg" />
+    <Content Include="Styles\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Styles\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Styles\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Styles\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Styles\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Styles\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Styles\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Styles\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Styles\images\ui-icons_222222_256x240.png" />
+    <Content Include="Styles\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Styles\images\ui-icons_454545_256x240.png" />
+    <Content Include="Styles\images\ui-icons_888888_256x240.png" />
+    <Content Include="Styles\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Styles\jquery-ui-1.9.1.min.css" />
+    <Content Include="Styles\loadingIndicator.css" />
+    <Content Include="Styles\Map\ie8.css" />
+    <Content Include="Styles\Map\reset.css" />
+    <Content Include="Styles\Map\style.css" />
+    <Content Include="Styles\signin.css" />
+    <Content Include="Styles\bootstrap-additional.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Styles\site.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Styles\bootstrap-theme.css.map" />
+    <Content Include="Styles\bootstrap.css.map" />
+    <Content Include="Areas\AZ\Admin.sitemap" />
+    <Content Include="Areas\AZ\Views\web.config" />
+    <Content Include="Areas\AZ\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\AZ\Views\Security\ChangePassword.cshtml" />
+    <Content Include="Areas\AZ\Views\Security\ResetPassword.cshtml" />
+    <Content Include="Areas\AZ\Views\Security\SignIn.cshtml" />
+    <Content Include="Areas\AZ\Views\Shared\Create.cshtml" />
+    <Content Include="Areas\AZ\Views\Shared\Edit.cshtml" />
+    <Content Include="Areas\AZ\Views\Shared\Error.cshtml" />
+    <Content Include="Areas\AZ\Views\Shared\Filter.cshtml" />
+    <Content Include="Areas\AZ\Views\Shared\Grid.cshtml" />
+    <Content Include="Areas\AZ\Views\Shared\Index.cshtml" />
+    <Content Include="Areas\AZ\Views\Shared\IndexWithFilter.cshtml" />
+    <Content Include="Areas\AZ\Views\Shared\_Empty.cshtml" />
+    <Content Include="Areas\AZ\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\AZ\Views\Shared\DisplayTemplates\MenuHelperModel.cshtml" />
+    <Content Include="Areas\AZ\Views\Shared\DisplayTemplates\SiteMapNodeModel.cshtml" />
+    <Content Include="Areas\AZ\Views\Shared\DisplayTemplates\SiteMapNodeModelList.cshtml" />
+    <Content Include="Areas\AZ\Views\Shared\EditorTemplates\BlockBreak.cshtml" />
+    <Content Include="Areas\AZ\Views\Shared\EditorTemplates\BlockHeader.cshtml" />
+    <Content Include="Areas\AZ\Views\Shared\EditorTemplates\Boolean.cshtml" />
+    <Content Include="Areas\AZ\Views\Shared\EditorTemplates\BoolFilterCondition.cshtml" />
+    <Content Include="Areas\AZ\Views\Shared\EditorTemplates\Date.cshtml" />
+    <Content Include="Areas\AZ\Views\Shared\EditorTemplates\DateFilterCondition.cshtml" />
+    <Content Include="Areas\AZ\Views\Shared\EditorTemplates\DateTime.cshtml" />
+    <Content Include="Areas\AZ\Views\Shared\EditorTemplates\Decimal.cshtml" />
+    <Content Include="Areas\AZ\Views\Shared\EditorTemplates\Double.cshtml" />
+    <Content Include="Areas\AZ\Views\Shared\EditorTemplates\EmailAddress.cshtml" />
+    <Content Include="Areas\AZ\Views\Shared\EditorTemplates\EnumFilterCondition.cshtml" />
+    <Content Include="Areas\AZ\Views\Shared\EditorTemplates\File.cshtml" />
+    <Content Include="Areas\AZ\Views\Shared\EditorTemplates\Files.cshtml" />
+    <Content Include="Areas\AZ\Views\Shared\EditorTemplates\FilterEdit.cshtml" />
+    <Content Include="Areas\AZ\Views\Shared\EditorTemplates\Int32.cshtml" />
+    <Content Include="Areas\AZ\Views\Shared\EditorTemplates\NumericFilterCondition.cshtml" />
+    <Content Include="Areas\AZ\Views\Shared\EditorTemplates\Object.cshtml" />
+    <Content Include="Areas\AZ\Views\Shared\EditorTemplates\Password.cshtml" />
+    <Content Include="Areas\AZ\Views\Shared\EditorTemplates\Raw.cshtml" />
+    <Content Include="Areas\AZ\Views\Shared\EditorTemplates\SelectFilterCondition.cshtml" />
+    <Content Include="Areas\AZ\Views\Shared\EditorTemplates\SingleSelectFilterCondition.cshtml" />
+    <Content Include="Areas\AZ\Views\Shared\EditorTemplates\String.cshtml" />
+    <Content Include="Areas\AZ\Views\Shared\EditorTemplates\StringFilterCondition.cshtml" />
+    <Content Include="Areas\AZ\Views\Shared\EditorTemplates\Text.cshtml" />
+    <Content Include="Areas\AZ\Views\Shared\EditorTemplates\TextArea.cshtml" />
+    <Content Include="Areas\AZ\Views\Shared\EditorTemplates\Time.cshtml" />
+    <Content Include="Areas\AZ\Views\Shared\EditorTemplates\TimeSpan.cshtml" />
+    <Content Include="Areas\AZ\Views\Order\Edit.cshtml" />
+    <Content Include="Areas\AZ\Views\Order\Create.cshtml" />
+    <Content Include="Areas\AZ\Views\Order\IndexWithFilter.cshtml" />
+    <Content Include="Areas\AZ\Views\Order\Import.cshtml" />
+    <Content Include="Areas\AZ\Views\Order\Mailing.cshtml" />
+    <Content Include="Areas\AZ\Views\Users\Index.cshtml" />
+    <Content Include="fonts\CorpA_condensed_Regular.eot" />
+    <Content Include="fonts\CorpA_condensed_Regular.ttf" />
+    <Content Include="fonts\CorpA_condensed_Regular.woff" />
+    <Content Include="fonts\CorpA_Cyr_Demi_.ttf" />
+    <Content Include="fonts\CorpA_Cyr_Demi_Italic.ttf" />
+    <Content Include="fonts\CorpA_Cyr_Italic_.ttf" />
+    <Content Include="fonts\CorpA_Cyr_Regular_.ttf" />
+    <Content Include="fonts\corpa_cyr_regular_0-webfont.eot" />
+    <Content Include="fonts\corpa_cyr_regular_0-webfont.ttf" />
+    <Content Include="fonts\corpa_cyr_regular_0-webfont.woff" />
+    <Content Include="Areas\AZ\Views\Order\GlobalMailing.cshtml" />
+    <Content Include="Areas\AZ\Views\Shared\EditorTemplates\NullVisitDateFilterCondition.cshtml" />
+    <Content Include="Areas\AZ\Views\Security\Manage.cshtml" />
+    <Content Include="Areas\AZ\Views\Shared\_LayoutError.cshtml" />
+    <Content Include="Areas\AZ\Views\Order\SendSms.cshtml" />
+    <Content Include="fonts\arial-narrow.ttf" />
+    <Content Include="fonts\CorporateACon-Reg-webfont.eot" />
+    <Content Include="fonts\CorporateACon-Reg-webfont.ttf" />
+    <Content Include="fonts\CorporateACon-Reg-webfont.woff" />
+    <Content Include="fonts\CorporateACon-Reg-webfont.woff2" />
+    <Content Include="Areas\AZ\Views\Order\EditorTemplates\Guid.cshtml" />
+    <Content Include="Areas\AZ\Views\Order\EditGeneral.cshtml" />
+    <Content Include="Areas\AZ\Views\Order\OrderItems.cshtml" />
+    <Content Include="Areas\AZ\Views\Order\OrderItemsCreate.cshtml" />
+    <Content Include="Areas\AZ\Views\Order\OrderItemsEdit.cshtml" />
+    <Content Include="Areas\AZ\Views\Order\OrderTypeOptions.cshtml" />
+    <None Include="Scripts\jquery-1.11.1.intellisense.js" />
+    <Content Include="Images\ajaxLoader.gif" />
+    <Content Include="Images\favicon.ico" />
+    <Content Include="Scripts\admin\jquery.form.js" />
+    <Content Include="Scripts\admin\jquery.tablednd.js" />
+    <Content Include="Scripts\admin\uploaded-files.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\globalize.culture.ru-RU.js" />
+    <Content Include="Scripts\globalize.js" />
+    <Content Include="Scripts\ie10-viewport-bug-workaround.js" />
+    <Content Include="Scripts\jquery-1.11.1.js" />
+    <Content Include="Scripts\jquery-1.11.1.min.js" />
+    <Content Include="Scripts\jquery-1.11.1.min.map" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.maskedinput.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.messages_ru.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\moment-with-locales.js" />
+    <Content Include="Scripts\moment-with-locales.min.js" />
+    <Content Include="Scripts\moment.js" />
+    <Content Include="Scripts\moment.min.js" />
+    <Content Include="Scripts\noty\jquery.noty.js" />
+    <Content Include="Scripts\noty\layouts\bottom.js" />
+    <Content Include="Scripts\noty\layouts\bottomCenter.js" />
+    <Content Include="Scripts\noty\layouts\bottomLeft.js" />
+    <Content Include="Scripts\noty\layouts\bottomRight.js" />
+    <Content Include="Scripts\noty\layouts\center.js" />
+    <Content Include="Scripts\noty\layouts\centerLeft.js" />
+    <Content Include="Scripts\noty\layouts\centerRight.js" />
+    <Content Include="Scripts\noty\layouts\inline.js" />
+    <Content Include="Scripts\noty\layouts\top.js" />
+    <Content Include="Scripts\noty\layouts\topCenter.js" />
+    <Content Include="Scripts\noty\layouts\topLeft.js" />
+    <Content Include="Scripts\noty\layouts\topRight.js" />
+    <Content Include="Scripts\noty\packaged\jquery.noty.packaged.js" />
+    <Content Include="Scripts\noty\packaged\jquery.noty.packaged.min.js" />
+    <Content Include="Scripts\noty\promise.js" />
+    <Content Include="Scripts\noty\themes\default.js" />
+    <Content Include="Scripts\npm.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.matchmedia.addListener.js" />
+    <Content Include="Scripts\respond.matchmedia.addListener.min.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\_references.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Content\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\IShop.Infrastructure\IShop.Infrastructure.csproj">
+      <Project>{0C0D2625-F2E9-41D5-940D-3828188964AA}</Project>
+      <Name>IShop.Infrastructure</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:59585/ishop/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

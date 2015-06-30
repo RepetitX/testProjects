@@ -1,0 +1,31 @@
+﻿@{
+    ViewBag.PageTitle = Model;
+
+    var controllerName = Url.RequestContext.RouteData.Values["controller"];
+}
+
+@section Scripts{
+    @Scripts.Render("~/Scripts/admin/order/index.js")
+}
+
+<div class="main with-sidebar">
+    <h2 class="page-header">@Model</h2>
+
+    <p>
+        @Html.ActionLink("Создать", "Create", null, new { id = controllerName + "Create", @class = "btn btn-mb", @data_target_update = "#" + controllerName + "Grid" })
+        @if (User.IsInRole("Administrator") || User.IsInRole("Manager"))
+        {
+            @Html.AntiForgeryToken()
+        }
+    </p>
+
+    @{
+        Html.UpdatePanel("Grid", new { id = controllerName + "Grid", @class = "contentbody mvcgridpanel" });
+    }
+</div>
+
+<div class="sidebar">
+    @{
+        Html.UpdatePanel("Filter", new { id = controllerName + "Filter", @class = "filterpanel" });
+    }
+</div>

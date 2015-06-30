@@ -1,0 +1,151 @@
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\obj\Debug\IShop.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\bin\Debug\IShop.DataAccess.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\bin\Debug\IShop.DataAccess.pdb
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\bin\Debug\Common.Core.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\bin\Debug\Common.Web.Mvc.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\bin\Debug\IShop.Common.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\bin\Debug\IShop.Models.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\bin\Debug\EntityFramework.Extended.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\bin\Debug\System.Web.Mvc.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\bin\Debug\System.Web.WebPages.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\bin\Debug\Autofac.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\bin\Debug\Microsoft.Owin.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\bin\Debug\Autofac.Integration.Mvc.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\bin\Debug\ClosedXML.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\bin\Debug\Microsoft.Web.Mvc.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\bin\Debug\System.Web.Razor.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\bin\Debug\Owin.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\bin\Debug\Common.Core.pdb
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\bin\Debug\Common.Web.Mvc.pdb
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\bin\Debug\IShop.Common.pdb
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\bin\Debug\IShop.Models.pdb
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\bin\Debug\EntityFramework.Extended.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\bin\Debug\System.Web.Mvc.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\bin\Debug\System.Web.WebPages.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\bin\Debug\Autofac.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\bin\Debug\Microsoft.Owin.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\bin\Debug\Autofac.Integration.Mvc.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\bin\Debug\ClosedXML.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\bin\Debug\System.Web.Razor.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\bin\Debug\ru\Common.Web.Mvc.resources.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\obj\Debug\IShop.DataAccess.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\obj\Debug\IShop.DataAccess.pdb
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\obj\Debug\IShop.DataAccess.Migrations.ds.resources
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.DataAccess\obj\Debug\IShop.DataAccess.csproj.GenerateResource.Cache
+C:\MyProj\IShop.DataAccess\bin\Debug\IShop.DataAccess.dll
+C:\MyProj\IShop.DataAccess\bin\Debug\IShop.DataAccess.pdb
+C:\MyProj\IShop.DataAccess\bin\Debug\Common.Core.dll
+C:\MyProj\IShop.DataAccess\bin\Debug\Common.Web.Mvc.dll
+C:\MyProj\IShop.DataAccess\bin\Debug\EntityFramework.dll
+C:\MyProj\IShop.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\MyProj\IShop.DataAccess\bin\Debug\IShop.Common.dll
+C:\MyProj\IShop.DataAccess\bin\Debug\IShop.Models.dll
+C:\MyProj\IShop.DataAccess\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\MyProj\IShop.DataAccess\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\MyProj\IShop.DataAccess\bin\Debug\EntityFramework.Extended.dll
+C:\MyProj\IShop.DataAccess\bin\Debug\System.Web.Mvc.dll
+C:\MyProj\IShop.DataAccess\bin\Debug\System.Web.WebPages.dll
+C:\MyProj\IShop.DataAccess\bin\Debug\Autofac.dll
+C:\MyProj\IShop.DataAccess\bin\Debug\DocumentFormat.OpenXml.dll
+C:\MyProj\IShop.DataAccess\bin\Debug\Microsoft.Owin.dll
+C:\MyProj\IShop.DataAccess\bin\Debug\Autofac.Integration.Mvc.dll
+C:\MyProj\IShop.DataAccess\bin\Debug\ClosedXML.dll
+C:\MyProj\IShop.DataAccess\bin\Debug\Microsoft.Web.Mvc.dll
+C:\MyProj\IShop.DataAccess\bin\Debug\Newtonsoft.Json.dll
+C:\MyProj\IShop.DataAccess\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\MyProj\IShop.DataAccess\bin\Debug\System.Web.Razor.dll
+C:\MyProj\IShop.DataAccess\bin\Debug\System.Web.WebPages.Razor.dll
+C:\MyProj\IShop.DataAccess\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\MyProj\IShop.DataAccess\bin\Debug\Owin.dll
+C:\MyProj\IShop.DataAccess\bin\Debug\Common.Core.pdb
+C:\MyProj\IShop.DataAccess\bin\Debug\Common.Web.Mvc.pdb
+C:\MyProj\IShop.DataAccess\bin\Debug\IShop.Common.pdb
+C:\MyProj\IShop.DataAccess\bin\Debug\IShop.Models.pdb
+C:\MyProj\IShop.DataAccess\bin\Debug\EntityFramework.xml
+C:\MyProj\IShop.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\MyProj\IShop.DataAccess\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\MyProj\IShop.DataAccess\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\MyProj\IShop.DataAccess\bin\Debug\EntityFramework.Extended.xml
+C:\MyProj\IShop.DataAccess\bin\Debug\System.Web.Mvc.xml
+C:\MyProj\IShop.DataAccess\bin\Debug\System.Web.WebPages.xml
+C:\MyProj\IShop.DataAccess\bin\Debug\Autofac.xml
+C:\MyProj\IShop.DataAccess\bin\Debug\Microsoft.Owin.xml
+C:\MyProj\IShop.DataAccess\bin\Debug\Autofac.Integration.Mvc.xml
+C:\MyProj\IShop.DataAccess\bin\Debug\ClosedXML.xml
+C:\MyProj\IShop.DataAccess\bin\Debug\Newtonsoft.Json.xml
+C:\MyProj\IShop.DataAccess\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\MyProj\IShop.DataAccess\bin\Debug\System.Web.Razor.xml
+C:\MyProj\IShop.DataAccess\bin\Debug\System.Web.WebPages.Razor.xml
+C:\MyProj\IShop.DataAccess\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\MyProj\IShop.DataAccess\bin\Debug\ru\Common.Web.Mvc.resources.dll
+C:\MyProj\IShop.DataAccess\obj\Debug\IShop.DataAccess.csprojResolveAssemblyReference.cache
+C:\MyProj\IShop.DataAccess\obj\Debug\IShop.DataAccess.dll
+C:\MyProj\IShop.DataAccess\obj\Debug\IShop.DataAccess.pdb
+C:\MyProj\IShop.DataAccess\obj\Debug\IShop.DataAccess.Migrations.dhsfss.resources
+C:\MyProj\IShop.DataAccess\obj\Debug\IShop.DataAccess.csproj.GenerateResource.Cache
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\obj\Debug\IShop.DataAccess.csprojResolveAssemblyReference.cache
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\obj\Debug\IShop.DataAccess.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\obj\Debug\IShop.DataAccess.pdb
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\bin\Debug\IShop.DataAccess.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\bin\Debug\IShop.DataAccess.pdb
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\bin\Debug\Common.Core.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\bin\Debug\Common.Web.Mvc.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\bin\Debug\EntityFramework.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\bin\Debug\IShop.Common.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\bin\Debug\IShop.Models.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\bin\Debug\EntityFramework.Extended.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\bin\Debug\System.Web.Mvc.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\bin\Debug\System.Web.WebPages.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\bin\Debug\Autofac.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\bin\Debug\DocumentFormat.OpenXml.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\bin\Debug\Microsoft.Owin.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\bin\Debug\Autofac.Integration.Mvc.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\bin\Debug\ClosedXML.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\bin\Debug\Microsoft.Web.Mvc.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\bin\Debug\Newtonsoft.Json.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\bin\Debug\System.Web.Razor.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\bin\Debug\System.Web.WebPages.Razor.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\bin\Debug\Owin.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\bin\Debug\Common.Core.pdb
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\bin\Debug\Common.Web.Mvc.pdb
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\bin\Debug\IShop.Common.pdb
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\bin\Debug\IShop.Models.pdb
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\bin\Debug\EntityFramework.xml
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\bin\Debug\EntityFramework.Extended.xml
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\bin\Debug\System.Web.Mvc.xml
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\bin\Debug\System.Web.WebPages.xml
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\bin\Debug\Autofac.xml
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\bin\Debug\Microsoft.Owin.xml
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\bin\Debug\Autofac.Integration.Mvc.xml
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\bin\Debug\ClosedXML.xml
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\bin\Debug\Newtonsoft.Json.xml
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\bin\Debug\System.Web.Razor.xml
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\bin\Debug\System.Web.WebPages.Razor.xml
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.DataAccess\bin\Debug\ru\Common.Web.Mvc.resources.dll

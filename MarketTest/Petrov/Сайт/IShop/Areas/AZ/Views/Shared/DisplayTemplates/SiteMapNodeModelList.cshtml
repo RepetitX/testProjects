@@ -1,0 +1,10 @@
+﻿@model SiteMapNodeModelList
+
+<ul class="dropdown-menu" role="menu">
+    @foreach (var node in Model)
+    {
+        <li class="@(node.IsCurrentNode || node.IsInCurrentPath || ViewContext.RouteData.Values["controller"].ToString() == node.Controller ? "active" : null)">
+            @Html.DisplayFor(m => node)
+        </li>
+    }
+</ul>

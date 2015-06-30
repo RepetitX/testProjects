@@ -1,0 +1,53 @@
+﻿@using Repetit.Tasks.Task1.Domain.Entities
+@model OrdersViewModel
+@{
+    ViewBag.Title = "Список заказов";
+}
+<div class="panel-heading">
+<h2>Список заказов</h2>
+    </div>
+    @if (Model != null)
+    {
+        if (Model.Orders != null)
+        {
+            <table id="orders" class="table table-striped">
+                <thead>
+                    <tr>
+                        <th class="th1">Номер заказа</th>
+                        <th>Дата</th>
+                        <th>Пользователь</th>
+                        <th>Менеджер</th>
+                        <th>Позиций</th>
+                        <th></th>
+                    </tr>
+                </thead>
+
+                @foreach (Order o in Model.Orders)
+                {
+                    <tr class="order" data-id="@o.OrderID">
+                        <td>@o.OrderID</td>
+                        <td>@o.CreatedDate.ToString("dd.MM.yyyy")</td>
+                        <td>@o.User.UserName</td>
+                        <td>@o.Manager.UserName</td>
+                        <td>@(o.OrderItems.Count)</td>
+                        <td>@Html.ActionLink("Редактировать", "OrderOptions", "Orders", new { o.OrderID }, new { @class = "btn btn-info", target = "_blank" })</td>
+                    </tr>
+                }
+            </table>
+            <div class="btn-group pull-right">
+                @Html.PageLinks(Model.PageInfo, it => Url.Action("Index", "Orders", new { Page = it, Model.PageInfo.PageSize }))
+            </div>
+        }
+        else
+        {
+            <text>Нет данных о заказах</text>
+        }
+    }
+    else
+    {
+        <text>Нет данных о заказах</text>
+    }
+    @section scripts
+{
+        <script src="~/Scripts/orders.js"></script>
+    }

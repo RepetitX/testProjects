@@ -1,0 +1,42 @@
+﻿@model Order
+
+@{
+    ViewBag.PageTitle = Model.ToString();
+}
+
+@section Scripts{
+    @Scripts.Render("~/Scripts/bootstrap3-typeahead.min.js")
+    @Scripts.Render("~/Scripts/admin/Participants/edit.js")
+    @Scripts.Render("~/Scripts/phone_mask.js")
+}
+
+<div class="main">
+    <h2 class="page-header">@Model.ToString()</h2>
+    <label>Перед добавлением позиций товаров в заказ необходимо его сохранить</label>
+    @using (Html.BeginForm("Create", null, FormMethod.Post, new { @class = "form-create" }))
+    {
+        @Html.Hidden("ModelStateErrors", ViewData.ModelState.Values.Select(v => v.Errors.Count).Sum())
+        @Html.ValidationSummary()
+        @Html.AntiForgeryToken()
+        @Html.EditorForModel()
+        <div class="form-group">
+            @if (Model.UserManagerDictionary != null)
+            {
+                <label>Ответственный менеджер</label>
+                @Html.DropDownListFor(c => c.UserManagerId, Model.UserManagerDictionary, new { @class = "form-control input-sm valid" })
+            }
+            else
+            {
+                <label>Ответственный менеджер</label>
+                <label>@Model.UserManagerName</label>
+                @Html.HiddenFor(c => c.UserManagerId)
+            }
+        </div>
+        <hr />
+        <div class="pull-right">
+            <button type="submit" class="btn btn-mb">Сохранить</button>
+            @Html.ActionLink("Закрыть", "Index", null, new { @class = "btn btn-mb" })
+        </div>
+        <div class="clearfix"></div>
+    }
+</div>

@@ -1,0 +1,16 @@
+﻿@model Guid
+    @{
+        var controllerName = Url.RequestContext.RouteData.Values["controller"];
+        Layout = null;
+    }
+
+    <div class="main">
+        <p>
+            @Html.ActionLink("Добавить товары", "OrderItemsCreate", new{orderId=Model}, new { id = controllerName + "OrderItemsCreate", @class = "btn btn-mb modal-form", @data_target_update = "#" + controllerName + "OrderItemsGrid" })
+            @Html.AntiForgeryToken()
+        </p>
+
+        @{
+            Html.UpdatePanel("OrderItemsGrid", controllerName.ToString(), new { orderId = Model }, new { id = controllerName + "OrderItemsGrid", @class = "contentbody mvcgridpanel" });
+        }
+    </div>

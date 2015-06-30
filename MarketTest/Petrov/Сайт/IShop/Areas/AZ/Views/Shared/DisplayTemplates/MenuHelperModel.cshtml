@@ -1,0 +1,21 @@
+﻿@model MenuHelperModel
+
+<ul class="nav navbar-nav">
+    @foreach (var node in Model.Nodes.Where(n => !n.IsRootNode))
+    {
+        var hasChildren = node.Children.Any();
+        var activeNode = node.IsCurrentNode || node.IsInCurrentPath || ViewContext.RouteData.Values["controller"].ToString() == node.Controller;
+        
+        <li class="@((hasChildren ? "dropdown " : null) + (activeNode ? "active" : null))">
+            @if (hasChildren)
+            {
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">@node.Title <span class="caret"></span></a>
+                @Html.DisplayFor(m => node.Children)
+            }
+            else
+            {
+                @Html.DisplayFor(m => node)
+            }
+        </li>
+    }
+</ul>

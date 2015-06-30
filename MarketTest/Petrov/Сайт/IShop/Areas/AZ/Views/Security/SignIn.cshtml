@@ -1,0 +1,36 @@
+﻿@model LoginViewModel
+
+@{
+    ViewBag.PageTitle = "Mercedes AMG Performance Tour - Раздел администратора";
+    Layout = "~/Areas/AZ/Views/Shared/_Empty.cshtml";
+}
+
+@section Styles
+{
+    @Styles.Render("~/Styles/signin")
+}
+
+@section Scripts
+{
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+<div class="container">
+    @using (Html.BeginForm(null, null, FormMethod.Post, new { @class = "form-signin" }))
+    {
+        <h3 class="form-signin-heading">Раздел администратора</h3>
+        @Html.ValidationSummary()
+        @Html.AntiForgeryToken()
+        <div class="form-group">
+            @Html.LabelFor(m => m.Login)
+            @Html.TextBoxFor(m => m.Login, new { @class = "form-control input-sm" })
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.Password)
+            @Html.PasswordFor(m => m.Password, new { @class = "form-control input-sm" })
+        </div>
+    <button class="btn btn-mb pull-right" type="submit">Войти</button>
+        <div class="clearfix"></div>
+    }
+</div>

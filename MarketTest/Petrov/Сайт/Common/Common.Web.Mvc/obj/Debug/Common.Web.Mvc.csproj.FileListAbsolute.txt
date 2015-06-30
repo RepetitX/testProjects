@@ -1,0 +1,195 @@
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\Common.Web.Mvc.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\Common.Web.Mvc.pdb
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\ru\Common.Web.Mvc.resources.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\Autofac.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\Autofac.Integration.Mvc.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\ClosedXML.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\Common.Core.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\EntityFramework.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\Microsoft.Owin.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\Microsoft.Web.Mvc.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\Owin.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\System.Web.Helpers.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\System.Web.Mvc.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\System.Web.Razor.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\System.Web.WebPages.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\EntityFramework.Extended.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\Common.Core.pdb
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\Autofac.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\Autofac.Integration.Mvc.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\ClosedXML.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\EntityFramework.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\Microsoft.Owin.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\System.Web.Helpers.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\System.Web.Mvc.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\System.Web.Razor.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\System.Web.WebPages.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\bin\Debug\EntityFramework.Extended.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\obj\Debug\Common.Web.Mvc.csprojResolveAssemblyReference.cache
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\obj\Debug\Common.Web.Mvc.Resources.Filter.resources
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\obj\Debug\Common.Web.Mvc.Resources.Grid.resources
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\obj\Debug\Common.Web.Mvc.Resources.FastPager.resources
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\obj\Debug\Common.Web.Mvc.Resources.Security.resources
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\obj\Debug\Common.Web.Mvc.Resources.ValidationMessages.resources
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\obj\Debug\Common.Web.Mvc.Resources.FastPager.ru.resources
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\obj\Debug\Common.Web.Mvc.Resources.Filter.ru.resources
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\obj\Debug\Common.Web.Mvc.Resources.Grid.ru.resources
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\obj\Debug\Common.Web.Mvc.Resources.Security.ru.resources
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\obj\Debug\Common.Web.Mvc.csproj.GenerateResource.Cache
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\obj\Debug\ru\Common.Web.Mvc.resources.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\obj\Debug\Common.Web.Mvc.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\Common\Common.Web.Mvc\obj\Debug\Common.Web.Mvc.pdb
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\Common.Web.Mvc.dll
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\Common.Web.Mvc.pdb
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\ru\Common.Web.Mvc.resources.dll
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\Autofac.dll
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\Autofac.Integration.Mvc.dll
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\ClosedXML.dll
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\Common.Core.dll
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\DocumentFormat.OpenXml.dll
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\EntityFramework.dll
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\EntityFramework.SqlServer.dll
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\Microsoft.Owin.dll
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\Microsoft.Owin.Security.dll
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\Microsoft.Web.Mvc.dll
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\Newtonsoft.Json.dll
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\Owin.dll
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\System.Web.Helpers.dll
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\System.Web.Mvc.dll
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\System.Web.Razor.dll
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\System.Web.WebPages.dll
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\System.Web.WebPages.Razor.dll
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\EntityFramework.Extended.dll
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\Common.Core.pdb
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\Autofac.xml
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\Autofac.Integration.Mvc.xml
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\ClosedXML.xml
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\EntityFramework.xml
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\EntityFramework.SqlServer.xml
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\Microsoft.Owin.xml
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\Microsoft.Owin.Security.xml
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\Newtonsoft.Json.xml
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\System.Web.Helpers.xml
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\System.Web.Mvc.xml
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\System.Web.Razor.xml
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\System.Web.WebPages.xml
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\System.Web.WebPages.Razor.xml
+C:\MyProj\Common\Common.Web.Mvc\bin\Debug\EntityFramework.Extended.xml
+C:\MyProj\Common\Common.Web.Mvc\obj\Debug\Common.Web.Mvc.csprojResolveAssemblyReference.cache
+C:\MyProj\Common\Common.Web.Mvc\obj\Debug\Common.Web.Mvc.Resources.Filter.resources
+C:\MyProj\Common\Common.Web.Mvc\obj\Debug\Common.Web.Mvc.Resources.Grid.resources
+C:\MyProj\Common\Common.Web.Mvc\obj\Debug\Common.Web.Mvc.Resources.FastPager.resources
+C:\MyProj\Common\Common.Web.Mvc\obj\Debug\Common.Web.Mvc.Resources.Security.resources
+C:\MyProj\Common\Common.Web.Mvc\obj\Debug\Common.Web.Mvc.Resources.ValidationMessages.resources
+C:\MyProj\Common\Common.Web.Mvc\obj\Debug\Common.Web.Mvc.Resources.FastPager.ru.resources
+C:\MyProj\Common\Common.Web.Mvc\obj\Debug\Common.Web.Mvc.Resources.Filter.ru.resources
+C:\MyProj\Common\Common.Web.Mvc\obj\Debug\Common.Web.Mvc.Resources.Grid.ru.resources
+C:\MyProj\Common\Common.Web.Mvc\obj\Debug\Common.Web.Mvc.Resources.Security.ru.resources
+C:\MyProj\Common\Common.Web.Mvc\obj\Debug\Common.Web.Mvc.csproj.GenerateResource.Cache
+C:\MyProj\Common\Common.Web.Mvc\obj\Debug\ru\Common.Web.Mvc.resources.dll
+C:\MyProj\Common\Common.Web.Mvc\obj\Debug\Common.Web.Mvc.dll
+C:\MyProj\Common\Common.Web.Mvc\obj\Debug\Common.Web.Mvc.pdb
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\Common.Web.Mvc.dll
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\Common.Web.Mvc.pdb
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\ru\Common.Web.Mvc.resources.dll
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\Autofac.dll
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\Autofac.Integration.Mvc.dll
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\ClosedXML.dll
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\Common.Core.dll
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\DocumentFormat.OpenXml.dll
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\EntityFramework.dll
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\EntityFramework.SqlServer.dll
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\Microsoft.Owin.dll
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\Microsoft.Owin.Security.dll
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\Microsoft.Web.Mvc.dll
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\Newtonsoft.Json.dll
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\Owin.dll
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\System.Web.Helpers.dll
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\System.Web.Mvc.dll
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\System.Web.Razor.dll
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\System.Web.WebPages.dll
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\System.Web.WebPages.Razor.dll
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\EntityFramework.Extended.dll
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\Common.Core.pdb
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\Autofac.xml
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\Autofac.Integration.Mvc.xml
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\ClosedXML.xml
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\EntityFramework.xml
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\EntityFramework.SqlServer.xml
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\Microsoft.Owin.xml
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\Microsoft.Owin.Security.xml
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\Newtonsoft.Json.xml
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\System.Web.Helpers.xml
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\System.Web.Mvc.xml
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\System.Web.Razor.xml
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\System.Web.WebPages.xml
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\System.Web.WebPages.Razor.xml
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\bin\Debug\EntityFramework.Extended.xml
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\obj\Debug\Common.Web.Mvc.csprojResolveAssemblyReference.cache
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\obj\Debug\Common.Web.Mvc.Resources.Filter.resources
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\obj\Debug\Common.Web.Mvc.Resources.Grid.resources
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\obj\Debug\Common.Web.Mvc.Resources.FastPager.resources
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\obj\Debug\Common.Web.Mvc.Resources.Security.resources
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\obj\Debug\Common.Web.Mvc.Resources.ValidationMessages.resources
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\obj\Debug\Common.Web.Mvc.Resources.FastPager.ru.resources
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\obj\Debug\Common.Web.Mvc.Resources.Filter.ru.resources
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\obj\Debug\Common.Web.Mvc.Resources.Grid.ru.resources
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\obj\Debug\Common.Web.Mvc.Resources.Security.ru.resources
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\obj\Debug\Common.Web.Mvc.csproj.GenerateResource.Cache
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\obj\Debug\ru\Common.Web.Mvc.resources.dll
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\obj\Debug\Common.Web.Mvc.dll
+C:\third party\test tasks\market test\Petrov\Сайт\Common\Common.Web.Mvc\obj\Debug\Common.Web.Mvc.pdb

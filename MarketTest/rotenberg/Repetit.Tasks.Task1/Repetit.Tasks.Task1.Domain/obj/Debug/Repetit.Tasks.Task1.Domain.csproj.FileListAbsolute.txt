@@ -1,0 +1,38 @@
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.Domain\bin\Debug\Repetit.Tasks.Task1.Domain.dll
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.Domain\bin\Debug\Repetit.Tasks.Task1.Domain.pdb
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.Domain\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.Domain\bin\Debug\System.Web.Helpers.dll
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.Domain\bin\Debug\System.Web.Mvc.dll
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.Domain\bin\Debug\System.Web.Razor.dll
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.Domain\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.Domain\bin\Debug\System.Web.WebPages.dll
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.Domain\bin\Debug\System.Web.WebPages.Razor.dll
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.Domain\bin\Debug\System.Web.Helpers.xml
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.Domain\bin\Debug\System.Web.Mvc.xml
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.Domain\bin\Debug\System.Web.Razor.xml
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.Domain\bin\Debug\System.Web.WebPages.xml
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.Domain\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.Domain\bin\Debug\System.Web.WebPages.Razor.xml
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.Domain\obj\Debug\Repetit.Tasks.Task1.Domain.dll
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.Domain\obj\Debug\Repetit.Tasks.Task1.Domain.pdb
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.Domain\bin\Debug\Repetit.Tasks.Task1.Domain.dll.config
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.Domain\obj\Debug\Repetit.Tasks.Task1.Domain.csprojResolveAssemblyReference.cache
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.Domain\bin\Debug\Repetit.Tasks.Task1.Domain.dll.config
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.Domain\bin\Debug\Repetit.Tasks.Task1.Domain.dll
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.Domain\bin\Debug\Repetit.Tasks.Task1.Domain.pdb
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.Domain\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.Domain\bin\Debug\System.Web.Helpers.dll
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.Domain\bin\Debug\System.Web.Mvc.dll
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.Domain\bin\Debug\System.Web.Razor.dll
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.Domain\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.Domain\bin\Debug\System.Web.WebPages.dll
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.Domain\bin\Debug\System.Web.WebPages.Razor.dll
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.Domain\bin\Debug\System.Web.Helpers.xml
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.Domain\bin\Debug\System.Web.Mvc.xml
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.Domain\bin\Debug\System.Web.Razor.xml
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.Domain\bin\Debug\System.Web.WebPages.xml
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.Domain\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.Domain\bin\Debug\System.Web.WebPages.Razor.xml
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.Domain\obj\Debug\Repetit.Tasks.Task1.Domain.csprojResolveAssemblyReference.cache
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.Domain\obj\Debug\Repetit.Tasks.Task1.Domain.dll
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.Domain\obj\Debug\Repetit.Tasks.Task1.Domain.pdb

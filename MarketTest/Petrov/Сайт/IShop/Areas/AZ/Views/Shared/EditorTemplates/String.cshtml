@@ -1,0 +1,22 @@
+﻿@{
+    var cls = ViewData.ModelMetadata.IsRequired
+        ? ("required" + (!string.IsNullOrEmpty(Convert.ToString(ViewData.TemplateInfo.FormattedModelValue)) ? " valid" : ""))
+        : "";
+
+    var customCssClass = ViewData.ModelMetadata.AdditionalValues.ContainsKey("CssClass")
+        ? " " + ViewData.ModelMetadata.AdditionalValues["CssClass"]
+        : "";
+        
+    var attributes = new Dictionary<string, object>();
+    attributes["class"] = cls + " form-control input-sm" + customCssClass;
+
+    var validators = ModelValidatorProviders.Providers.GetValidators(ViewData.ModelMetadata, ViewContext);
+    var rule = validators.SelectMany(v => v.GetClientValidationRules()).FirstOrDefault(m => m.ValidationType == "stringLength");
+    
+    if (rule != null && rule.ValidationParameters.ContainsKey("maximumLength"))
+    {
+        attributes["maxlength"] = rule.ValidationParameters["maximumLength"];
+    }
+}
+
+@Html.TextBox("", ViewData.TemplateInfo.FormattedModelValue, attributes) 

@@ -1,0 +1,127 @@
+﻿<p ng-show="order.id" class="md-display-1">Заказ №{{order.id}}</p>
+<p ng-hide="order.id" class="md-display-1">Новый заказ</p>
+
+<p ng-show="order.creationDateTime" class="order-date-label">{{order.creationDateTime | date:'medium'}}</p>
+
+<section>
+    <table class="item-table">
+        <tr ng-repeat="item in order.items">
+            <td hide-sm>{{$index+1}}.</td>
+            <td hide-md  hide-sm><img ng-src="{{item.product.image}}" class="product-preview" /></td>
+            <td><b>{{item.product.title}}</b></td>
+            <td hide-sm>{{item.product.price | currency:'₽':0}}</td>
+            <td>
+                <md-input-container flex class="small">
+                    <label>Количество</label>
+                    <input required type="number" ng-model="item.count" min="1" max="100" maxlength="3">
+                </md-input-container>
+            </td>
+            <td hide-md hide-sm>Сумма: {{item.product.price*item.count | currency:'₽':0}}</td>
+            <td><md-button ng-click="showAddAccessoriseDialog(item.product.id,$event)" ng-show="item.product.haveAccessorises" class="md-raised md-primary">Аксессуары</md-button></td>
+            <td><md-button ng-click="removeItem(item)" class="md-warn">Удалить</md-button></td>
+        </tr>
+    </table>
+
+    <div ng-show="summary==0" class="summary">Заказ пуст =(</div>
+    <div ng-show="summary!=0" class="summary">Итого: {{summary | currency:'₽':0}}</div>
+    <md-button ng-click="showAddItemDialog($event)" class="md-raised md-primary">Добавить товар</md-button>
+</section>
+
+<form name="orderForm">
+    <section>
+        <md-autocomplete flex required
+                         md-input-name="autocompleteField"
+                         md-search-text-change="searchTextChange(searchText)"
+                         md-search-text="searchText"
+                         md-items="item in search(searchText)"
+                         md-item-text="getText(item)"
+                         md-selected-item-change="selectedItemChange(item)"
+                         md-selected-item="order.manager"
+                         md-floating-label="Менеджер"
+                         md-menu-class="autocomplete-custom-template"
+                         md-min-length="0"
+                         md-autofocus="false"
+                         class="large">
+            <md-item-template>
+                <span class="item-picture">
+                    <img ng-src="{{item.image}}" />
+                </span>
+                <span class="item-text">{{item.name.last}} {{item.name.first}} {{item.name.middle}}</span>
+            </md-item-template>
+            <div ng-messages="orderForm.autocompleteField.$error" ng-if="orderForm.autocompleteField.$touched">
+                <div ng-message="required">
+                    Необходимо выбрать менеджера
+                </div>
+            </div>
+        </md-autocomplete>
+    </section>
+    <section class="orderInformation">
+        <h3 class="md-headline">Сведения о заказе</h3>
+
+        <div layout layout-sm="column">
+            <md-input-container flex class="small">
+                <label>Фамилия</label>
+                <input required ng-model="order.clientName.last">
+            </md-input-container>
+
+            <md-input-container flex class="small">
+                <label>Имя</label>
+                <input required ng-model="order.clientName.first">
+            </md-input-container>
+
+            <md-input-container flex class="small">
+                <label>Отчество</label>
+                <input required ng-model="order.clientName.middle">
+            </md-input-container>
+        </div>
+
+        <!--<h3 class="md-headline">Адрес доставки</h3>-->
+        <div layout layout-sm="column">
+            <md-input-container flex class="small">
+                <label>Страна</label>
+                <input required ng-model="order.address.country">
+            </md-input-container>
+
+            <md-input-container flex class="small">
+                <label>Город</label>
+                <input required ng-model="order.address.town">
+            </md-input-container>
+
+            <md-input-container flex class="small">
+                <label>Улица/пр./пл./ш.</label>
+                <input required ng-model="order.address.street">
+            </md-input-container>
+
+            <md-input-container flex class="small">
+                <label>Дом</label>
+                <input required type="number" ng-model="order.address.building">
+            </md-input-container>
+        </div>
+
+        <div layout layout-sm="column">
+            <md-input-container flex class="large">
+                <label>Контактная информация</label>
+                <input required ng-model="order.contacts">
+            </md-input-container>
+        </div>
+
+        <div layout layout-sm="column">
+            <md-input-container flex class="large">
+                <label>Примечание</label>
+                <textarea ng-model="order.note" columns="1" md-maxlength="1000"></textarea>
+            </md-input-container>
+        </div>
+        <!--Кнопка сохранения заказа-->
+        <md-button ng-click="createOrder()" ng-hide="order.id || isLoading" class="md-raised md-primary">Сохранить заказ</md-button>
+        <md-button ng-click="deleteOrder($event)" ng-show="order.id" class="md-raised md-warn deleteOrder">Удалить заказ</md-button>
+
+
+        <div ng-show="isLoading">
+            <p>
+                <b>Загрузка</b>
+            </p>
+            <md-progress-linear md-mode="indeterminate"></md-progress-linear>
+        </div>
+
+    </section>
+</form>

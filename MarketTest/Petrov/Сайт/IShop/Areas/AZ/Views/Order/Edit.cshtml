@@ -1,0 +1,27 @@
+﻿@model Order
+
+@{
+    ViewBag.PageTitle = Model.ToString();
+}
+
+@section Scripts{
+    @Scripts.Render("~/Scripts/bootstrap3-typeahead.min.js")
+    @Scripts.Render("~/Scripts/jquery-ui-1.10.2.min.js")
+    @Scripts.Render("~/Scripts/admin/order/edit.js")
+    @Scripts.Render("~/Scripts/phone_mask.js")
+}
+
+@section Styles
+{
+    @Styles.Render("~/Styles/jquery-ui-1.9.1.min.css")
+}
+
+<div class="main">
+    <h2 class="page-header">@Model.ToString()</h2>
+    <div id="tradeInEditTabs" class="form-jquery-tabs">
+        <ul>
+            <li><a href="@Url.Action("EditGeneral", "Order", new { id = Model.Id })">Основные данные</a></li>
+            <li><a href="@Url.Action("OrderItems", "Order", new { orderId = Model.Id })">Позиции заказа</a></li>
+        </ul>
+    </div>
+</div>

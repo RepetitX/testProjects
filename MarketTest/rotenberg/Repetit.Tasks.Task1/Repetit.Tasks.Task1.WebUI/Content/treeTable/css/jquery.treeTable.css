@@ -1,0 +1,123 @@
+/* jQuery TreeTable Core 2.0 stylesheet
+ *
+ * This file contains styles that are used to display the tree table. Each tree
+ * table is assigned the +treeTable+ class.
+ * ========================================================================= */
+
+/* jquery.treeTable.collapsible
+ * ------------------------------------------------------------------------- */
+.treeTable tr td .expander {
+  background-position: left center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  padding: 0;
+  zoom: 1; /* IE7 Hack */
+}
+.treeTable tr.collapsed td .expander {
+  background-image: url(../../img/toggle-expand-dark.png);
+}
+.treeTable tr.expanded td .expander {
+  background-image: url(../../img/toggle-collapse-dark.png);
+}
+
+/* jquery.treeTable.sortable
+ * ------------------------------------------------------------------------- */
+.treeTable tr.selected, .treeTable tr.accept {
+  background-color: #3875d7;
+  color: #fff;
+}
+
+.treeTable tr.collapsed.selected td .expander, .treeTable tr.collapsed.accept td .expander {
+  background-image: url(../../img/toggle-expand-light.png);
+}
+
+.treeTable tr.expanded.selected td .expander, .treeTable tr.expanded.accept td .expander {
+  background-image: url(../../img/toggle-collapse-light.png);
+   background-position:left;
+}
+
+.treeTable .ui-draggable-dragging {
+  color: #000;
+  z-index: 1;
+}
+.vacancy-td 
+{
+   width:700px;
+}
+.vacancy-td tr:nth-child(1)
+{
+      height :50px ;
+      background:url(../../img/bg-table-heading_50.png) repeat-x ;
+}
+.vacancy-td tr:first-child
+{
+   height :50px ;
+   background:url(../../img/bg-table-heading_50.png) repeat-x ;
+ }
+.vacancy-td tr:first-child:hover
+{
+   background :url(../../img/bg_hover_vacancy.png) repeat-x;
+}
+.vacancy-td tr:nth-child(1):hover
+{
+  background :url(../../img/bg_hover_vacancy.png) repeat-x;
+}
+td.cel1{width:150px !important; font-weight:bold; text-align:left;  }
+td.cel2{ text-align:center; width:400px !important;font-weight:bold; white-space:nowrap}
+td.cel3{ text-align:center; width:200px !important;font-weight:bold;white-space:nowrap}
+td.cel4{ text-align:center; width:200px !important;font-weight:bold}
+
+th.cel1{width:200px !important; font-weight:bold; text-align:left;}
+th.cel2{ text-align:center; width:250px !important;font-weight:bold;}
+th.cel3{ text-align:center; width:200px !important;font-weight:bold;}
+
+th.th1{width:220px !important; font-weight:bold; text-align:left; }
+th.th2{ text-align:center; width:220px !important;font-weight:bold;}
+th.th3{ text-align:center; width:220px !important;font-weight:bold;}
+th.cel4{ text-align:center; width:200px !important;font-weight:bold}
+table.vacancy-details
+{
+     width:640px;
+   background-color:#f1f1f1;
+}
+table.vacancy-details label{ font-size:14px ; color:#777;}
+table.vacancy-details div
+{
+     font-size:8pt;
+     margin:6px; padding:6px;
+      background-color:#fff;
+}
+table.vacancy-details
+{
+     -moz-border-radius:6px ;
+     -webkit-border-radius:6px ;
+     -border-radius:6px ;
+}
+tr.no-bg{ background:none !important;}
+tr.header-vacancy th
+{
+    background: url("../../img/top-bg.png") repeat-x scroll 0 100% #FBFBFB;
+    color: #FFFFFF !important;
+    font-weight: normal;
+    height: 36px;
+ }
+ span.no-foto{ background-color:#ffffff;}
+ .postav{ font-weight:bold; font-family:Verdana,Tahoma,sans-serif; font-size:8pt;color:#777; margin-top:5px; white-space:pre-wrap; width:600px}
+     .ui-dialog-titlebar{ display:none !important;}
+   .treeTable  td{color:#777; font-family: Verdana,Arial,Helvetica,sans-serif; font-size:8pt; font-weight:normal }
+     td.cel1,  td.cel2,td.cel3{ text-align:left; padding-left:4px;}
+      hr{ background-color:#fff !important; color:#fff }
+    .tooltip {
+	position: absolute;
+	z-index: 3000;
+	border: 2px solid red;
+	background-color: #ffe4e1;
+	padding: 5px;
+	opacity: 0.85;
+	color:#666;
+	font-weight: normal;
+	font-family: Verdana, Tahoma, Sans-Serif;
+	font-size:8pt !important;
+    max-width:400px;
+}
+ 

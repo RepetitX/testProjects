@@ -1,0 +1,15 @@
+﻿@model BoolFilterCondition
+
+@{
+  var index = (int)ViewData["index"];
+}
+
+<div class="form-group">
+    <label>@Model.Caption</label>
+    <input type="hidden" name="@Model.GetInputName(index, "Key")" value="@Model.Key" />
+    <select class="form-control" name="@Model.GetInputName(index, "Condition")">
+        <option value="None">@Model.NoneText</option>
+        <option value="True" @(Model.Value != null ? (Model.Value.Condition == "True" ? "selected=selected" : null) : null)>@Model.TrueText</option>
+        <option value="False" @(Model.Value != null ? (Model.Value.Condition == "False" ? "selected=selected" : null) : null)>@Model.FalseText</option>
+    </select>
+</div>

@@ -1,0 +1,52 @@
+﻿@model MailingViewModel
+
+@{
+    Layout = null;
+}
+
+<div class="modal-dialog modal-update-grid">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <h4 class="modal-title" id="ModalLabel">Новая рассылка</h4>
+        </div>
+        @using (Html.BeginForm())
+        {
+            <div class="modal-body">
+                <div class="alert alert-info" role="alert">
+                    Информация о рассылках:
+                    <ul>
+                        <li><b>"Приглашение"</b> - может быть отправлено только участникам со статусом <b>"Не было активности"</b>.</li>
+                        <li><b>"Письмо с подтверждением регистрации и QR-кодом"</b> - может быть отправлено только участникам со статусом <b>"Не было активности"</b> или <b>"Регистрация"</b>, после рассылки статус участников будет изменен на <b>"Регистрация"</b>.</li>
+                        <li><b>"Благодарственное письмо после посещения мероприятия"</b> - может быть отправлена только участникам со статусом <b>"Посещение"</b>.</li>
+                        <li><b>"Письмо, если не пришел"</b> - может быть отправлена только участникам со статусом <b>"Регистрация"</b>.</li>
+                    </ul>
+                </div>
+                @Html.Hidden("ModelStateErrors", ViewData.ModelState.Values.Select(v => v.Errors.Count).Sum())
+                @Html.Hidden("PostMessage", "Информация о проведенной рассылке доступна в разделе \"Логи рассылок E-mail\".", new { data_noty_type = "Information" })
+                @Html.ValidationSummary()
+                @Html.AntiForgeryToken()
+
+                @for (var i = 0; i < Model.ParticipantsIds.Count(); i++)
+                {
+                    @Html.Hidden("ParticipantsIds[" + i + "]", Model.ParticipantsIds[i])
+                }
+
+                <div class="form-group">
+                    @Html.LabelFor(m => m.MailingId)
+                    <select class="form-control" data-val="true" data-val-required="Необходимо заполнить поле Рассылка." id="MailingId" name="MailingId">
+                        @foreach (var item in Model.MailingsDictionary)
+                        {
+                            <option value="@item.Value" @Html.Raw(item.Selected ? "selected" : "") @Html.Raw(item.Disabled ? "disabled" : "")>@item.Text</option>
+                        }
+                    </select>
+                    @Html.ValidationMessageFor(m => m.MailingId)
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-mb">Разослать письма</button>
+                <button type="button" class="btn btn-mb" data-dismiss="modal">Закрыть</button>
+            </div>
+        }
+    </div>
+</div>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.Owin.Security.MicrosoftAccount.ru</id>
+    <version>3.0.1</version>
+    <title>Русские ресурсы Microsoft Owin Security Microsoft Account</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <licenseUrl>http://www.microsoft.com/web/webpi/eula/net_library_eula_RUS.htm</licenseUrl>
+    <projectUrl>http://katanaproject.codeplex.com/</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Эти пакеты содержат русские вспомогательные сборки для Microsoft Owin Security Microsoft Account</description>
+    <summary>Русские ресурсы для пакета Microsoft.Owin.Security.MicrosoftAccount.</summary>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <language>ru</language>
+    <tags>Microsoft OWIN Katana</tags>
+    <dependencies>
+      <dependency id="Microsoft.Owin.Security.MicrosoftAccount" version="[3.0.1]" />
+    </dependencies>
+  </metadata>
+</package>

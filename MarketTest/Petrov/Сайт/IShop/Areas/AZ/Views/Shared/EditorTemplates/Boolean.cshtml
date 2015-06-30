@@ -1,0 +1,33 @@
+﻿@{
+    bool? value = null;
+    
+    if (ViewData.Model != null)
+    {
+        value = Convert.ToBoolean(ViewData.Model, System.Globalization.CultureInfo.InvariantCulture);
+    }
+
+    var customCssClass = ViewData.ModelMetadata.AdditionalValues.ContainsKey("CssClass")
+        ? " " + ViewData.ModelMetadata.AdditionalValues["CssClass"]
+        : "";
+}
+
+@if (ViewData.ModelMetadata.IsNullableValueType)
+{
+    var threeStatesValues = new List<SelectListItem>
+        {
+            new SelectListItem { Text = "", Value = String.Empty, Selected = !value.HasValue },
+            new SelectListItem { Text = "Да", Value = "true", Selected = value.HasValue && value.Value },
+            new SelectListItem { Text = "Нет", Value = "false", Selected = value.HasValue && !value.Value },
+        };
+    
+    @Html.DropDownList("", threeStatesValues, new { @class = "form-control" })
+}
+else
+{
+    <div class="checkbox">
+        <label>
+            @Html.CheckBox("", value ?? false, new { @class = "check-box" + customCssClass })
+            @ViewData.ModelMetadata.DisplayName
+        </label>
+    </div>
+}

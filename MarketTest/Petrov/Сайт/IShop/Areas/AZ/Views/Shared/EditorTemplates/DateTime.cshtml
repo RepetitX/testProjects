@@ -1,0 +1,8 @@
+﻿@{
+    var modelValue = ViewData.Model == null || ((DateTime)ViewData.Model) == DateTime.MinValue
+        ? ""
+        : ((DateTime)ViewData.Model).ToShortDateString() + " " + ((DateTime)ViewData.Model).ToShortTimeString();
+        
+    var cls = ViewData.ModelMetadata.IsRequired ? "required" : ""; 
+}
+@Html.TextBox("", modelValue, new { @class = "datetime-ru-input " + cls + " form-control input-sm" })

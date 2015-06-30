@@ -1,0 +1,258 @@
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\obj\Debug\IShop.csprojResolveAssemblyReference.cache
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\IShop.dll.config
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\IShop.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\IShop.pdb
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\Antlr3.Runtime.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\EntityFramework.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\EntityFramework.SqlServer.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\IShop.Infrastructure.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\Mvc.Mailer.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\MvcSiteMapProvider.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\MvcSiteMapProvider.WebActivator.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\Newtonsoft.Json.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\System.Web.Helpers.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\System.Web.Mvc.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\System.Web.Optimization.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\System.Web.Razor.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\System.Web.WebPages.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\System.Web.WebPages.Razor.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\WebActivatorEx.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\WebGrease.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\Autofac.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\IShop.Models.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\IShop.AspNetIdentity.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\IShop.DataAccess.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\Microsoft.Owin.Security.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\Common.Web.Mvc.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\IShop.Controllers.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\Autofac.Integration.Mvc.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\Common.Core.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\IShop.GridModels.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\IShop.Services.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\IShop.Common.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\Microsoft.Owin.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\Owin.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\DocumentFormat.OpenXml.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\ClosedXML.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\Microsoft.Web.Mvc.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\IShop.ViewModels.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\EntityFramework.Extended.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\IShop.Infrastructure.pdb
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\Antlr3.Runtime.pdb
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\EntityFramework.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\EntityFramework.SqlServer.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\MvcSiteMapProvider.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\MvcSiteMapProvider.WebActivator.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\Newtonsoft.Json.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\System.Web.Helpers.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\System.Web.Mvc.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\System.Web.Razor.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\System.Web.WebPages.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\System.Web.WebPages.Razor.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\System.Web.Optimization.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\Autofac.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\IShop.Models.pdb
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\IShop.AspNetIdentity.pdb
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\IShop.DataAccess.pdb
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\Microsoft.Owin.Security.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\Common.Web.Mvc.pdb
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\IShop.Controllers.pdb
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\Autofac.Integration.Mvc.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\Common.Core.pdb
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\IShop.GridModels.pdb
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\IShop.Services.pdb
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\IShop.Common.pdb
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\Microsoft.Owin.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\ClosedXML.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\IShop.ViewModels.pdb
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\EntityFramework.Extended.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\bin\ru\Common.Web.Mvc.resources.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\obj\Debug\IShop.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop\obj\Debug\IShop.pdb
+C:\MyProj\IShop\bin\IShop.dll.config
+C:\MyProj\IShop\bin\IShop.dll
+C:\MyProj\IShop\bin\IShop.pdb
+C:\MyProj\IShop\bin\Antlr3.Runtime.dll
+C:\MyProj\IShop\bin\EntityFramework.dll
+C:\MyProj\IShop\bin\EntityFramework.SqlServer.dll
+C:\MyProj\IShop\bin\IShop.Infrastructure.dll
+C:\MyProj\IShop\bin\Microsoft.Web.Infrastructure.dll
+C:\MyProj\IShop\bin\Mvc.Mailer.dll
+C:\MyProj\IShop\bin\MvcSiteMapProvider.dll
+C:\MyProj\IShop\bin\MvcSiteMapProvider.WebActivator.dll
+C:\MyProj\IShop\bin\Newtonsoft.Json.dll
+C:\MyProj\IShop\bin\System.Web.Helpers.dll
+C:\MyProj\IShop\bin\System.Web.Mvc.dll
+C:\MyProj\IShop\bin\System.Web.Optimization.dll
+C:\MyProj\IShop\bin\System.Web.Razor.dll
+C:\MyProj\IShop\bin\System.Web.WebPages.Deployment.dll
+C:\MyProj\IShop\bin\System.Web.WebPages.dll
+C:\MyProj\IShop\bin\System.Web.WebPages.Razor.dll
+C:\MyProj\IShop\bin\WebActivatorEx.dll
+C:\MyProj\IShop\bin\WebGrease.dll
+C:\MyProj\IShop\bin\Autofac.dll
+C:\MyProj\IShop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\MyProj\IShop\bin\IShop.Models.dll
+C:\MyProj\IShop\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\MyProj\IShop\bin\IShop.AspNetIdentity.dll
+C:\MyProj\IShop\bin\Microsoft.AspNet.Identity.Core.dll
+C:\MyProj\IShop\bin\IShop.DataAccess.dll
+C:\MyProj\IShop\bin\Microsoft.Owin.Security.dll
+C:\MyProj\IShop\bin\Common.Web.Mvc.dll
+C:\MyProj\IShop\bin\IShop.Controllers.dll
+C:\MyProj\IShop\bin\Autofac.Integration.Mvc.dll
+C:\MyProj\IShop\bin\Common.Core.dll
+C:\MyProj\IShop\bin\IShop.GridModels.dll
+C:\MyProj\IShop\bin\IShop.Services.dll
+C:\MyProj\IShop\bin\Microsoft.Owin.dll
+C:\MyProj\IShop\bin\Microsoft.Owin.Security.OAuth.dll
+C:\MyProj\IShop\bin\Owin.dll
+C:\MyProj\IShop\bin\Microsoft.Owin.Security.Cookies.dll
+C:\MyProj\IShop\bin\DocumentFormat.OpenXml.dll
+C:\MyProj\IShop\bin\ClosedXML.dll
+C:\MyProj\IShop\bin\Microsoft.Web.Mvc.dll
+C:\MyProj\IShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\MyProj\IShop\bin\IShop.ViewModels.dll
+C:\MyProj\IShop\bin\EntityFramework.Extended.dll
+C:\MyProj\IShop\bin\IShop.Common.dll
+C:\MyProj\IShop\bin\IShop.Infrastructure.pdb
+C:\MyProj\IShop\bin\Antlr3.Runtime.pdb
+C:\MyProj\IShop\bin\EntityFramework.xml
+C:\MyProj\IShop\bin\EntityFramework.SqlServer.xml
+C:\MyProj\IShop\bin\MvcSiteMapProvider.xml
+C:\MyProj\IShop\bin\MvcSiteMapProvider.WebActivator.xml
+C:\MyProj\IShop\bin\Newtonsoft.Json.xml
+C:\MyProj\IShop\bin\System.Web.Helpers.xml
+C:\MyProj\IShop\bin\System.Web.Mvc.xml
+C:\MyProj\IShop\bin\System.Web.Razor.xml
+C:\MyProj\IShop\bin\System.Web.WebPages.xml
+C:\MyProj\IShop\bin\System.Web.WebPages.Deployment.xml
+C:\MyProj\IShop\bin\System.Web.WebPages.Razor.xml
+C:\MyProj\IShop\bin\System.Web.Optimization.xml
+C:\MyProj\IShop\bin\Autofac.xml
+C:\MyProj\IShop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\MyProj\IShop\bin\IShop.Models.pdb
+C:\MyProj\IShop\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\MyProj\IShop\bin\IShop.AspNetIdentity.pdb
+C:\MyProj\IShop\bin\Microsoft.AspNet.Identity.Core.xml
+C:\MyProj\IShop\bin\IShop.DataAccess.pdb
+C:\MyProj\IShop\bin\Microsoft.Owin.Security.xml
+C:\MyProj\IShop\bin\Common.Web.Mvc.pdb
+C:\MyProj\IShop\bin\IShop.Controllers.pdb
+C:\MyProj\IShop\bin\Autofac.Integration.Mvc.xml
+C:\MyProj\IShop\bin\Common.Core.pdb
+C:\MyProj\IShop\bin\IShop.GridModels.pdb
+C:\MyProj\IShop\bin\IShop.Services.pdb
+C:\MyProj\IShop\bin\Microsoft.Owin.xml
+C:\MyProj\IShop\bin\Microsoft.Owin.Security.OAuth.xml
+C:\MyProj\IShop\bin\Microsoft.Owin.Security.Cookies.xml
+C:\MyProj\IShop\bin\ClosedXML.xml
+C:\MyProj\IShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\MyProj\IShop\bin\IShop.ViewModels.pdb
+C:\MyProj\IShop\bin\EntityFramework.Extended.xml
+C:\MyProj\IShop\bin\IShop.Common.pdb
+C:\MyProj\IShop\bin\ru\Common.Web.Mvc.resources.dll
+C:\MyProj\IShop\obj\Debug\IShop.csprojResolveAssemblyReference.cache
+C:\MyProj\IShop\obj\Debug\IShop.dll
+C:\MyProj\IShop\obj\Debug\IShop.pdb
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\IShop.dll.config
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\IShop.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\IShop.pdb
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\Antlr3.Runtime.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\EntityFramework.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\EntityFramework.SqlServer.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\IShop.Infrastructure.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\Microsoft.Web.Infrastructure.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\Mvc.Mailer.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\MvcSiteMapProvider.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\MvcSiteMapProvider.WebActivator.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\Newtonsoft.Json.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\System.Web.Helpers.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\System.Web.Mvc.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\System.Web.Optimization.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\System.Web.Razor.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\System.Web.WebPages.Deployment.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\System.Web.WebPages.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\System.Web.WebPages.Razor.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\WebActivatorEx.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\WebGrease.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\Autofac.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\IShop.Models.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\IShop.AspNetIdentity.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\Microsoft.AspNet.Identity.Core.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\IShop.DataAccess.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\Microsoft.Owin.Security.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\Common.Web.Mvc.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\IShop.Controllers.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\Autofac.Integration.Mvc.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\Common.Core.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\IShop.GridModels.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\IShop.Services.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\IShop.Common.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\Microsoft.Owin.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\Microsoft.Owin.Security.OAuth.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\Owin.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\Microsoft.Owin.Security.Cookies.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\DocumentFormat.OpenXml.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\ClosedXML.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\Microsoft.Web.Mvc.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\IShop.ViewModels.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\EntityFramework.Extended.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\IShop.Infrastructure.pdb
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\Antlr3.Runtime.pdb
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\EntityFramework.xml
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\EntityFramework.SqlServer.xml
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\MvcSiteMapProvider.xml
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\MvcSiteMapProvider.WebActivator.xml
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\Newtonsoft.Json.xml
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\System.Web.Helpers.xml
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\System.Web.Mvc.xml
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\System.Web.Razor.xml
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\System.Web.WebPages.xml
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\System.Web.WebPages.Deployment.xml
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\System.Web.WebPages.Razor.xml
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\System.Web.Optimization.xml
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\Autofac.xml
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\IShop.Models.pdb
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\IShop.AspNetIdentity.pdb
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\Microsoft.AspNet.Identity.Core.xml
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\IShop.DataAccess.pdb
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\Microsoft.Owin.Security.xml
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\Common.Web.Mvc.pdb
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\IShop.Controllers.pdb
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\Autofac.Integration.Mvc.xml
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\Common.Core.pdb
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\IShop.GridModels.pdb
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\IShop.Services.pdb
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\IShop.Common.pdb
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\Microsoft.Owin.xml
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\Microsoft.Owin.Security.OAuth.xml
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\Microsoft.Owin.Security.Cookies.xml
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\ClosedXML.xml
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\IShop.ViewModels.pdb
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\EntityFramework.Extended.xml
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\bin\ru\Common.Web.Mvc.resources.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\obj\Debug\IShop.csprojResolveAssemblyReference.cache
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\obj\Debug\IShop.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop\obj\Debug\IShop.pdb

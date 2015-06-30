@@ -1,0 +1,7 @@
+﻿@{
+    var cls = ViewData.ModelMetadata.IsRequired
+        ? ("required" + ((double)ViewData.ModelMetadata.Model > 0 ? " valid" : ""))
+        : "";
+}
+
+@Html.TextBox("", ViewData.TemplateInfo.FormattedModelValue, new { @class = "number " + cls + " form-control input-sm", maxlength = "20" }) 

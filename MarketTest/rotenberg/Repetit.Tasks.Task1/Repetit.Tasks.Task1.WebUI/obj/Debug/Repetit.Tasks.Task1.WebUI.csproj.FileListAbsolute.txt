@@ -1,0 +1,112 @@
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Repetit.Tasks.Task1.WebUI.dll.config
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Repetit.Tasks.Task1.WebUI.dll
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Repetit.Tasks.Task1.WebUI.pdb
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Newtonsoft.Json.dll
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Ninject.dll
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Ninject.Web.Common.dll
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Ninject.Web.Mvc.dll
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Repetit.Tasks.Task1.Domain.dll
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\System.Net.Http.Formatting.dll
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\System.Web.Helpers.dll
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\System.Web.Http.dll
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\System.Web.Http.WebHost.dll
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\System.Web.Mvc.dll
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\System.Web.Razor.dll
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\System.Web.Webpages.Deployment.dll
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\System.Web.Webpages.dll
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\System.Web.Webpages.Razor.dll
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\WebActivatorEx.dll
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Repetit.Tasks.Task1.Domain.pdb
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Ninject.xml
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Ninject.Web.Common.xml
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Ninject.Web.Mvc.xml
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\System.Web.Razor.xml
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\System.Web.Webpages.xml
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\System.Web.Webpages.Deployment.xml
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\System.Web.Webpages.Razor.xml
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\System.Web.Helpers.xml
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\System.Web.Mvc.xml
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Newtonsoft.Json.xml
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\System.Net.Http.Formatting.xml
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\System.Web.Http.xml
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\System.Web.Http.WebHost.xml
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\obj\Debug\Repetit.Tasks.Task1.WebUI.csprojResolveAssemblyReference.cache
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\obj\Debug\Repetit.Tasks.Task1.WebUI.dll
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\obj\Debug\Repetit.Tasks.Task1.WebUI.pdb
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\EntityFramework.dll
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\EntityFramework.SqlServer.dll
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Microsoft.AspNet.Identity.Core.dll
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Microsoft.Owin.dll
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Microsoft.Owin.Security.Cookies.dll
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Microsoft.Owin.Security.dll
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Microsoft.Owin.Security.OAuth.dll
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Owin.dll
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\EntityFramework.xml
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\EntityFramework.SqlServer.xml
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Microsoft.AspNet.Identity.Core.xml
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Microsoft.Owin.xml
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Microsoft.Owin.Security.xml
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Microsoft.Owin.Security.Cookies.xml
+D:\repetit\task3\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Microsoft.Owin.Security.OAuth.xml
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Repetit.Tasks.Task1.WebUI.dll.config
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Repetit.Tasks.Task1.WebUI.dll
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Repetit.Tasks.Task1.WebUI.pdb
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\EntityFramework.dll
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\EntityFramework.SqlServer.dll
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Microsoft.AspNet.Identity.Core.dll
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Microsoft.Owin.dll
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Microsoft.Owin.Security.Cookies.dll
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Microsoft.Owin.Security.dll
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Microsoft.Owin.Security.OAuth.dll
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Newtonsoft.Json.dll
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Ninject.dll
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Ninject.Web.Common.dll
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Ninject.Web.Mvc.dll
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Owin.dll
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Repetit.Tasks.Task1.Domain.dll
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\System.Net.Http.Formatting.dll
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\System.Web.Helpers.dll
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\System.Web.Http.dll
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\System.Web.Http.WebHost.dll
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\System.Web.Mvc.dll
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\System.Web.Razor.dll
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\System.Web.Webpages.Deployment.dll
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\System.Web.Webpages.dll
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\System.Web.Webpages.Razor.dll
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\WebActivatorEx.dll
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Repetit.Tasks.Task1.Domain.pdb
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\EntityFramework.xml
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\EntityFramework.SqlServer.xml
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Microsoft.AspNet.Identity.Core.xml
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Microsoft.Owin.xml
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Microsoft.Owin.Security.xml
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Microsoft.Owin.Security.Cookies.xml
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Microsoft.Owin.Security.OAuth.xml
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Ninject.xml
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Ninject.Web.Common.xml
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Ninject.Web.Mvc.xml
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\System.Web.Razor.xml
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\System.Web.Webpages.xml
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\System.Web.Webpages.Deployment.xml
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\System.Web.Webpages.Razor.xml
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\System.Web.Helpers.xml
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\System.Web.Mvc.xml
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\Newtonsoft.Json.xml
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\System.Net.Http.Formatting.xml
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\System.Web.Http.xml
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\bin\System.Web.Http.WebHost.xml
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\obj\Debug\Repetit.Tasks.Task1.WebUI.csprojResolveAssemblyReference.cache
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\obj\Debug\Repetit.Tasks.Task1.WebUI.dll
+C:\third party\test tasks\market test\rotenberg\Repetit.Tasks.Task1\Repetit.Tasks.Task1.WebUI\obj\Debug\Repetit.Tasks.Task1.WebUI.pdb

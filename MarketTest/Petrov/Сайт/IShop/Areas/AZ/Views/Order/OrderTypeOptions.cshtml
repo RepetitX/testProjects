@@ -1,0 +1,9 @@
+﻿@model IEnumerable<SelectListItem>
+@{
+    Layout = null;
+}
+
+@foreach (var item in Model)
+{
+    <option @Html.Raw(item.Selected ? "selected='selected'" : "") value="@item.Value">@item.Text</option>
+}

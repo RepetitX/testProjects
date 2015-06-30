@@ -1,0 +1,53 @@
+﻿@model SmsSendViewModel
+
+@{
+    Layout = null;
+}
+
+<div class="modal-dialog modal-update-grid">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <h4 class="modal-title" id="ModalLabel">Новая рассылка</h4>
+        </div>
+        @using (Html.BeginForm())
+        {
+            <div class="modal-body">
+                <div class="alert alert-info" role="alert">
+                    Информация о рассылках:
+                    <ul>
+                        <li><b>"SMS - приглашение"</b> - может быть отправлена только участникам со статусом <b>"Не было активности"</b>, <b>"Согласие"</b> и <b>"Приглашение"</b>.</li>
+                        <li><b>"SMS - уведомление"</b> - может быть отправлена только участникам со статусом <b>"Не было активности"</b> или <b>"Регистрация"</b> в случае если до мероприятия осталось менее двух дней.</li>
+
+                    </ul>
+                    SMS рассылка может быть проведена только до момента начала мероприятия.
+                    <br/>
+                    <br />
+                    @*<span id="balance" style="font-size: 20px;color: green;"></span>
+                    <script>
+                        getBalance();
+                    </script>*@
+                </div>
+                @Html.Hidden("ModelStateErrors", ViewData.ModelState.Values.Select(v => v.Errors.Count).Sum())
+                @Html.Hidden("PostMessage", "Информация о проведенной рассылке доступна в разделе \"Логи рассылок SMS\".", new { data_noty_type = "Information" })
+                @Html.ValidationSummary()
+                @Html.AntiForgeryToken()
+                @Html.HiddenFor(c => c.ParticipantsId)
+                <div class="form-group">
+                    @Html.LabelFor(m => m.SmsTypeId)
+                    <select class="form-control" data-val="true" data-val-required="Необходимо заполнить поле Рассылка." id="SmsTypeId" name="SmsTypeId">
+                        @foreach (var item in Model.SmsTypesDictionary)
+                        {
+                            <option value="@item.Value" @Html.Raw(item.Selected ? "selected" : "") @Html.Raw(item.Disabled ? "disabled" : "")>@item.Text</option>
+                        }
+                    </select>
+                    @Html.ValidationMessageFor(m => m.SmsTypeId)
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-mb">Отправить SMS</button>
+                <button type="button" class="btn btn-mb" data-dismiss="modal">Закрыть</button>
+            </div>
+        }
+    </div>
+</div>

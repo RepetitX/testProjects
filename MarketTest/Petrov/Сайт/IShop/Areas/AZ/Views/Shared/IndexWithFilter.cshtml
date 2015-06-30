@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.PageTitle = Model;
+
+    var controllerName = Url.RequestContext.RouteData.Values["controller"];
+}
+
+<div class="main with-sidebar">
+    <h2 class="page-header">@Model</h2>
+
+    <p>
+        @Html.ActionLink("Создать", "Create", null, new { id = controllerName + "Create", @class = "btn btn-mb modal-form", @data_target_update = "#" + controllerName + "Grid" })
+        @Html.AntiForgeryToken()
+    </p>
+
+    @{
+        Html.UpdatePanel("Grid", new { id = controllerName + "Grid", @class = "contentbody mvcgridpanel" });
+    }
+</div>
+
+<div class="sidebar">
+    @{
+        Html.UpdatePanel("Filter", new { id = controllerName + "Filter", @class = "filterpanel" });
+    }
+</div>

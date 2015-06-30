@@ -1,0 +1,186 @@
+﻿body {
+    font-size: .85em;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    color: #232323;
+    background-color: #c6e2ff;
+    background-image: url("photo.jpg");
+}
+
+header, footer, nav, section {
+    display: block;
+}
+
+h1{
+    color: black;
+    margin-top: 50px;
+    margin-left: 270px;
+    margin-right: 270px;
+    font-family: Arial;
+    font-size: 35px;
+    
+}
+
+.add_order{
+    display: inline-block;
+    background-color: #ae7b7b;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+/**{  
+    border: 2px solid #3a5fcd;
+}*/
+
+.button{
+    height: 20px;
+    width: 120px;
+    border-color: #6495ed;
+    background-color: #bcd2ee;
+    border-style: dashed, solid;
+    border-width: 2px;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+    border: 2px solid black;
+
+    padding-bottom: 30px;
+}
+
+#search{
+    position: relative;
+    margin-left: 80px;
+    margin-top: 5px;
+    margin-right: 100px;
+    padding: 23px;
+    border: 3px solid #2f7c81;
+    font-size: 25px;
+    font-family: Arial;
+    color: #4c1875;
+    display: inline-block;
+    border-radius: 80px;
+}
+
+#forma{
+    position: relative;
+    margin-left: 5px;
+    margin-top: 15px;
+    padding: 23px;
+    padding-left: 130px;
+    padding-right: 130px;
+    border: 3px solid #2f7c81;
+    font-size: 25px;
+    font-family: Arial;
+    color: #4c1875;
+    display: inline-block;
+    border-radius: 80px;
+}
+
+#manager{
+    margin-left: 20px;
+    display: inline-block;
+}
+
+#n_or{
+    margin-left: 500px;
+    display: inline-block;
+}
+
+#id_adress{
+    display:inline-block;
+    margin-left: 20px;
+}
+#ser_order{
+    margin-left: 500px;
+    display:inline-block;
+}
+
+#id_contact{
+    margin-left: 20px;
+}
+
+#id_comment{
+    margin-left: 20px;  
+}
+
+#id_langs{
+    margin-left:20px;
+}
+
+#id_Add{
+    height: 50px;
+    width: 120px;
+    margin-left: 20px;
+    padding-bottom: 40px;
+}
+
+#id_order{
+    margin-left: 20px;
+    padding-bottom: 35px;  
+    text-align: center; 
+    margin-top: 10px;
+}
+
+#order{
+    margin-top: 10px;
+}
+
+p{
+    color:black;
+}
+
+div {
+    background-color: none;
+    
+    color: black;
+}
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+fieldset {
+    border: 1px solid #ddd;
+    padding: 0 1.4em 1.4em 1.4em;
+    margin: 0 0 1.5em 0;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+textarea {
+    min-height: 75px;
+}
+
+.editor-label {
+    margin: 1em 0 0 0;
+}
+
+.editor-field {
+    margin: 0.5em 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error {
+    color: #f00;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #f00;
+    background-color: #fee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #f00;
+}
+
+.validation-summary-valid {
+    display: none;
+}

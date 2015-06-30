@@ -1,0 +1,12 @@
+﻿@model NullVisitDateFilterCondition
+
+@{
+  var index = (int)ViewData["index"];
+}
+
+<div class="checkbox">
+    <input type="hidden" name="@Model.GetInputName(index, "Key")" value="@Model.Key" />
+    <label>
+        <input name="@Model.GetInputName(index, "Condition")" type="checkbox" value="true" @(Model.Value != null ? (Model.Value.Condition == "true" ? "checked=checked" : null) : null)> @Model.Caption
+    </label>
+</div>

@@ -1,0 +1,22 @@
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.Common\bin\Debug\IShop.Common.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.Common\bin\Debug\IShop.Common.pdb
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.Common\bin\Debug\Common.Core.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.Common\bin\Debug\EntityFramework.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.Common\bin\Debug\EntityFramework.Extended.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.Common\bin\Debug\Common.Core.pdb
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.Common\bin\Debug\EntityFramework.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.Common\bin\Debug\EntityFramework.Extended.xml
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.Common\obj\Debug\IShop.Common.csprojResolveAssemblyReference.cache
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.Common\obj\Debug\IShop.Common.dll
+C:\Users\Sergey Petrov\Desktop\Новая папка\IShop.Common\obj\Debug\IShop.Common.pdb
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.Common\bin\Debug\IShop.Common.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.Common\bin\Debug\IShop.Common.pdb
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.Common\bin\Debug\Common.Core.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.Common\bin\Debug\EntityFramework.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.Common\bin\Debug\EntityFramework.Extended.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.Common\bin\Debug\Common.Core.pdb
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.Common\bin\Debug\EntityFramework.xml
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.Common\bin\Debug\EntityFramework.Extended.xml
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.Common\obj\Debug\IShop.Common.csprojResolveAssemblyReference.cache
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.Common\obj\Debug\IShop.Common.dll
+C:\third party\test tasks\market test\Petrov\Сайт\IShop.Common\obj\Debug\IShop.Common.pdb

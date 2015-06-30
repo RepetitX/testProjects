@@ -1,0 +1,14 @@
+﻿<div>
+    <md-list class="orders">
+
+        <md-list-item ng-click="goto(order)" ng-repeat="order in orders" ng-mouseover="order.active=true" ng-mouseleave="order.active=false" ng-class="{active:order.active}" class="order">
+            <p>
+                <a href="#/Orders/{{order.id}}" class="header">
+                    <span class="header"><b>Заказ № {{order.id}}</b> | Заказчик: {{order.clientName.last}} {{order.clientName.middle}} {{order.clientName.first}} | Менеджер: {{order.manager.name.last}} {{order.manager.name.first}}</span>
+                </a>
+                <img ng-repeat="item in order.items" ng-src="{{item.product.image}}" class="image-preview" />
+            </p>
+        </md-list-item>
+
+    </md-list>
+</div>

@@ -1,0 +1,21 @@
+﻿@{
+    var cls = ViewData.ModelMetadata.IsRequired
+        ? ("required" + (!string.IsNullOrEmpty(Convert.ToString(ViewData.TemplateInfo.FormattedModelValue)) ? " valid" : ""))
+        : "";
+
+    var customCssClass = ViewData.ModelMetadata.AdditionalValues.ContainsKey("CssClass")
+        ? " " + ViewData.ModelMetadata.AdditionalValues["CssClass"]
+        : "";
+        
+    var attributes = new Dictionary<string, object>();
+    attributes["class"] = cls + " form-control" + customCssClass;
+    attributes["rows"] = "6";
+    
+    var validators = ModelValidatorProviders.Providers.GetValidators(ViewData.ModelMetadata, ViewContext);
+    var rule = validators.SelectMany(v => v.GetClientValidationRules()).FirstOrDefault(m => m.ValidationType == "stringLength");
+    if (rule != null && rule.ValidationParameters.ContainsKey("maximumLength"))
+    {
+        attributes["maxlength"] = rule.ValidationParameters["maximumLength"];
+    }
+}
+@Html.TextArea("", ViewData.TemplateInfo.FormattedModelValue.ToString(), 6, 1, attributes)

@@ -1,0 +1,18 @@
+﻿@model EnumFilterCondition
+
+@{
+    var index = (int)ViewData["index"];
+    var condition = Model.Value != null ? Model.Value.Condition : "IsIn";
+}
+
+<div class="form-group">
+    <label>@Model.Caption</label>
+    <input type="hidden" name="@Model.GetInputName(index, "Condition")" value="@condition" />
+    <input type="hidden" name="@Model.GetInputName(index, "Key")" value="@Model.Key" />
+    <select name="@Model.GetInputName(index, "Values")" class="form-control input-sm select-filter-condition" multiple="multiple">
+        @foreach (var item in Model.Dictionary)
+        {
+            <option value="@item.Value" @(Model.Value != null && Model.Value.Values != null && Model.Value.Values.Contains(item.Value) ? "selected=selected" : null)>@item.Text</option>
+        }
+    </select>
+</div>

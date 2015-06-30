@@ -1,0 +1,27 @@
+﻿@model Repetit.Tasks.Task1.Domain.Entities.OrderOption
+@using (Html.BeginForm("EditOption", "Orders"))
+{
+    @Html.ValidationSummary(true)
+   @Html.Hidden("OrderID", Model.OrderItem.OrderID)
+    @Html.HiddenFor(p => p.OrderOptionsID)
+    @Html.HiddenFor(p => p.OrderItemID)
+    <div class="panel-body">
+        <table>
+            <tr><td><label>Опция:</label></td><td id="editoption">@Html.DropDownList("OptionID")</td></tr>
+            <tr><td colspan="2">@Html.ValidationMessageFor(p => p.OptionID)</td></tr>
+            <tr height="20"><td colspan="2"></td>
+            <tr><td><label>Кол-во:</label></td><td>@Html.TextBoxFor(p => p.Number, new { @class = "form-control" })</td></tr>
+            <tr><td colspan="2">@Html.ValidationMessageFor(p => p.Number)</td></tr>
+            <tr height="20"><td colspan="2"></td></tr>
+            <tr>
+                <td colspan="2">
+                    <div class="text-center">
+                        <button class="btn btn-success">Сохранить</button>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+}
+<script src="~/Scripts/jquery.validate.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.js"></script>

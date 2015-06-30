@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище databaseModel" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="Хранилище databaseModelContainer">
+    <EntitySet Name="t_goods" EntityType="Хранилище databaseModel.t_goods" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="t_manager" EntityType="Хранилище databaseModel.t_manager" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="t_option" EntityType="Хранилище databaseModel.t_option" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="t_order" EntityType="Хранилище databaseModel.t_order" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="t_product" EntityType="Хранилище databaseModel.t_product" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_t_goods_ToOrder" Association="Хранилище databaseModel.FK_t_goods_ToOrder">
+      <End Role="t_order" EntitySet="t_order" />
+      <End Role="t_goods" EntitySet="t_goods" />
+    </AssociationSet>
+    <AssociationSet Name="FK_t_option_ToProduct" Association="Хранилище databaseModel.FK_t_option_ToProduct">
+      <End Role="t_product" EntitySet="t_product" />
+      <End Role="t_option" EntitySet="t_option" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="t_goods">
+    <Key>
+      <PropertyRef Name="name_product" />
+      <PropertyRef Name="order_number" />
+      <PropertyRef Name="id" />
+      <PropertyRef Name="name_option" />
+    </Key>
+    <Property Name="name_product" Type="nchar" Nullable="false" MaxLength="20" />
+    <Property Name="order_number" Type="int" Nullable="false" />
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="name_option" Type="nchar" Nullable="false" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="t_manager">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="name_manager" Type="nchar" Nullable="false" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="t_option">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="id_product" Type="int" Nullable="false" />
+    <Property Name="option_name" Type="nchar" Nullable="false" MaxLength="20" />
+    <Property Name="option_price" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="t_order">
+    <Key>
+      <PropertyRef Name="order_number" />
+    </Key>
+    <Property Name="order_number" Type="int" Nullable="false" />
+    <Property Name="date_order" Type="datetime" Nullable="false" />
+    <Property Name="manager_order" Type="nchar" Nullable="false" MaxLength="20" />
+    <Property Name="contact_data" Type="nchar" Nullable="false" MaxLength="20" />
+    <Property Name="comment" Type="nchar" Nullable="false" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="t_product">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="product_name" Type="nchar" Nullable="false" MaxLength="20" />
+    <Property Name="product_price" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_t_goods_ToOrder">
+    <End Role="t_order" Type="Хранилище databaseModel.t_order" Multiplicity="1" />
+    <End Role="t_goods" Type="Хранилище databaseModel.t_goods" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="t_order">
+        <PropertyRef Name="order_number" />
+      </Principal>
+      <Dependent Role="t_goods">
+        <PropertyRef Name="order_number" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_t_option_ToProduct">
+    <End Role="t_product" Type="Хранилище databaseModel.t_product" Multiplicity="1" />
+    <End Role="t_option" Type="Хранилище databaseModel.t_option" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="t_product">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="t_option">
+        <PropertyRef Name="id_product" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

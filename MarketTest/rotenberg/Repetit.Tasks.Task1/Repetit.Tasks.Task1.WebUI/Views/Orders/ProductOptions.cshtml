@@ -1,0 +1,9 @@
+﻿@using Repetit.Tasks.Task1.Domain.Entities
+@model IEnumerable<OrderOption>
+<table class="table-bordered">
+    <thead><tr><th>Название</th><th>Кол-во</th><th></th></tr></thead>
+    @foreach (var op in Model)
+    {
+        <tr><td>@op.Option.Name</td><td>@op.Number</td><td>@Html.ActionLink("Редактировать","EditOption","Orders", new  {op.OrderOptionsID)</td></tr>
+    }
+</table>

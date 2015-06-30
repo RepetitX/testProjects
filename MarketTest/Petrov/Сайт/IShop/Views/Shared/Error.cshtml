@@ -1,0 +1,9 @@
+﻿@model HandleErrorInfo
+@{
+    Layout = IsAjax ? null : ViewBag.AZ != null && ViewBag.AZ == true ? "~/Areas/AZ/Views/Shared/_LayoutError.cshtml" : "~/Views/Shared/_LayoutError.cshtml";
+}
+<div class="content-inner">
+    <h1>Ошибка</h1>
+    <hr class="content-divider-dark" />
+    <p class="reg-succ-text">Во время вашего запроса возникла ошибка.</p>
+</div>

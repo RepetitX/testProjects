@@ -1,0 +1,151 @@
+﻿/*angular Fix*/
+md-input-container .md-placeholder:not(.md-select-label), md-input-container label:not(.md-no-float) {
+    padding-bottom: 6px;
+}
+
+md-list-item.product .md-list-item-inner > .md-avatar:first-child {
+    border-radius: 0;
+    width: 64px;
+    height: auto;
+}
+
+md-list.md-default-theme md-list-item.product.md-3-line .md-list-item-text h4 {
+    line-height: 1em;
+}
+
+
+/*My styles*/
+h1.appTitle {
+    font-weight: 300;
+}
+
+.mainDiv {
+    height: 100%;
+}
+
+
+.orders .order {
+    border-top: 1px solid silver;
+    padding: 10px 0 10px 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+    .orders .order .header {
+        text-decoration: none;
+        color: initial;
+    }
+
+    .orders .order.active .header {
+        color: #08c;
+    }
+
+
+
+    .orders .order .header {
+        font-weight: 300;
+        padding: 5px;
+        display: block;
+        /*background-color: whitesmoke;*/;
+    }
+
+.image-preview {
+    height: 64px;
+    padding: 10px 5px 10px 5px;
+}
+
+
+@media screen and (min-width: 1200px) {
+    md-input-container.small {
+        max-width: 250px;
+    }
+
+    md-input-container.large, md-autocomplete.large {
+        max-width: 450px;
+    }
+}
+
+.order-date-label {
+    margin-top: -20px;
+    padding-bottom: 10px;
+    color: gray;
+    font-size: 14px;
+}
+
+
+.autocomplete-custom-template li {
+    border-bottom: 1px solid #ccc;
+    height: auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    white-space: normal;
+}
+
+
+.autocomplete-custom-template .item-picture, .autocomplete-custom-template .item-text {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.autocomplete-custom-template .item-text {
+    padding-left: 4px;
+    padding-top: 4px;
+}
+
+.autocomplete-custom-template .item-picture img {
+    height: 42px;
+    width: 42px;
+}
+
+
+.item-table img.product-preview {
+    height: 128px;
+}
+
+
+table.item-table {
+    border-collapse: collapse;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+    table.item-table tr {
+        border-bottom: 1px solid silver;
+    }
+
+        table.item-table tr td {
+            padding: 10px;
+        }
+
+
+.item-table tr:hover {
+    background-color: whitesmoke;
+}
+
+@media screen and (max-width: 600px) {
+    table.item-table {
+        font-size: 12px;
+    }
+}
+
+.summary {
+    padding-bottom: 20px;
+}
+
+.orderInformation {
+    margin-bottom: 100px;
+}
+
+section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.md-button.deleteOrder {
+    margin-top: 50px;
+}

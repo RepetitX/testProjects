@@ -1,0 +1,9 @@
+﻿@Html.HiddenFor(m => m)
+@if (Model != default(Guid))
+{
+    <p class="form-control-static">@Html.Raw(Model)</p>
+}
+else
+{
+    <p class="form-control-static">Не задан</p>
+}

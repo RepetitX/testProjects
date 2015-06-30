@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище databaseModelContainer" CdmEntityContainer="databaseEntities2">
+    <EntitySetMapping Name="t_goods">
+      <EntityTypeMapping TypeName="databaseModel.t_goods">
+        <MappingFragment StoreEntitySet="t_goods">
+          <ScalarProperty Name="name_product" ColumnName="name_product" />
+          <ScalarProperty Name="order_number" ColumnName="order_number" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name_option" ColumnName="name_option" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="t_manager">
+      <EntityTypeMapping TypeName="databaseModel.t_manager">
+        <MappingFragment StoreEntitySet="t_manager">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="name_manager" ColumnName="name_manager" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="t_option">
+      <EntityTypeMapping TypeName="databaseModel.t_option">
+        <MappingFragment StoreEntitySet="t_option">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="id_product" ColumnName="id_product" />
+          <ScalarProperty Name="option_name" ColumnName="option_name" />
+          <ScalarProperty Name="option_price" ColumnName="option_price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="t_order">
+      <EntityTypeMapping TypeName="databaseModel.t_order">
+        <MappingFragment StoreEntitySet="t_order">
+          <ScalarProperty Name="order_number" ColumnName="order_number" />
+          <ScalarProperty Name="date_order" ColumnName="date_order" />
+          <ScalarProperty Name="manager_order" ColumnName="manager_order" />
+          <ScalarProperty Name="contact_data" ColumnName="contact_data" />
+          <ScalarProperty Name="comment" ColumnName="comment" />
+          <ScalarProperty Name="adress" ColumnName="adress" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="t_product">
+      <EntityTypeMapping TypeName="databaseModel.t_product">
+        <MappingFragment StoreEntitySet="t_product">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="product_name" ColumnName="product_name" />
+          <ScalarProperty Name="product_price" ColumnName="product_price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

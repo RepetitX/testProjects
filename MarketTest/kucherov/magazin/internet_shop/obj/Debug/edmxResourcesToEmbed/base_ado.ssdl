@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище databaseModel" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="Хранилище databaseModelContainer">
+    <EntitySet Name="t_manager" EntityType="Хранилище databaseModel.t_manager" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="t_option" EntityType="Хранилище databaseModel.t_option" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="t_product" EntityType="Хранилище databaseModel.t_product" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="t_manager">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="name_manager" Type="nchar" Nullable="false" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="t_option">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="id_product" Type="int" Nullable="false" />
+    <Property Name="option_name" Type="nchar" Nullable="false" MaxLength="20" />
+    <Property Name="option_price" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="t_product">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="product_name" Type="nchar" Nullable="false" MaxLength="20" />
+    <Property Name="product_price" Type="int" />
+  </EntityType>
+</Schema>

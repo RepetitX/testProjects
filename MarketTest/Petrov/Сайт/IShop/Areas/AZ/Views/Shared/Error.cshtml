@@ -1,0 +1,14 @@
+﻿@model HandleErrorInfo
+
+@{
+    if (IsAjax)
+    {
+        Layout = null;
+    }
+
+    ViewBag.Title = "Ошибка";
+}
+
+<h1 class="text-danger">Ошибка</h1>
+<h2 class="text-danger">Во время обработки вашего запроса возникла ошибка.</h2>
+<p>@Model.Exception.Message</p>

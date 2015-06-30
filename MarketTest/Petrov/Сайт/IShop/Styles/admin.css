@@ -1,0 +1,255 @@
+/*
+ * Base structure
+ */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    min-width: 1024px;
+}
+
+/*
+ * Global add-ons
+ */
+
+.sub-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.ajax-loader {
+    display:none;
+    position:fixed;
+    z-index:1000;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background: url(../Images/ajaxLoader.gif) 50% 50% no-repeat;
+}
+body.loading {
+    overflow:hidden;
+}
+body.loading .ajax-loader {
+    display: block;
+}
+
+/*
+ * Sidebar
+ */
+
+/* Hide for mobile, show later */
+
+.sidebar {
+    width: 325px;
+    position: fixed;
+    top: 52px;
+    bottom: 0;
+    right: 0;
+    z-index: 500;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    background-color: #f5f5f5;
+    border-left: 1px solid #eee;
+}
+
+/* Top navigation */
+
+.navbar {
+    border-radius: 0;
+}
+
+.navbar-brand > img {
+    display: inline-block;
+    width: 22px;
+    margin-top: -2px;
+    margin-right: 9px;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #00ADEF;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #00ADEF;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #00ADEF;
+}
+
+.dropdown-menu {
+    font-size: 12px;
+}
+
+/*
+ * Main content
+ */
+
+.main {
+  padding: 0 20px 20px 20px;
+}
+.main.with-sidebar {
+    padding-right: 345px;
+}
+.main .page-header {
+  margin-top: 0;
+}
+
+/*
+ * Placeholder dashboard ideas
+ */
+
+.placeholders {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.placeholders h4 {
+  margin-bottom: 0;
+}
+.placeholder {
+  margin-bottom: 20px;
+}
+.placeholder img {
+  display: inline-block;
+  border-radius: 50%;
+}
+
+/*
+ * Table .mvcgrid
+ */
+
+table.mvcgrid > thead > tr > th > a {
+    font-family: Calibri;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+table.mvcgrid .mvcgrid-options-column {
+    width: 30px;
+    min-width: 30px;
+}
+
+table.mvcgrid .mvcgrid-delete-link,
+table.mvcgrid .mvcgrid-edit-link,
+table.mvcgrid .mvcgrid-move-link {
+    display: none;
+}
+
+table.mvcgrid > tbody > tr:hover .mvcgrid-delete-link,
+table.mvcgrid > tbody > tr:hover .mvcgrid-edit-link,
+table.mvcgrid > tbody > tr:hover .mvcgrid-move-link {
+    display: block;
+}
+
+table.mvcgrid .mvcgrid-options-column.drag-handle {
+    cursor: move;
+}
+
+.mvcgrid-search {
+    padding: 0 0 15px 0;
+}
+
+.mvcgrid-search .grid-clear-search-btn {
+    position: absolute;
+    right: 40px;
+    top: 3px;
+    z-index: 9;
+    padding: 4px;
+    border: none;
+    color: #999;
+}
+
+.mvcgrid-search .grid-clear-search-btn:hover,
+.mvcgrid-search .grid-clear-search-btn:active,
+.mvcgrid-search .grid-clear-search-btn:focus {
+    color: #333;
+    background-color: #FFF;
+    border-color: #CCC;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.files-table tbody tr td {
+    vertical-align: middle;
+}
+
+.files-table tbody tr .thumbnail-column {
+    width: 216px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/*
+ * Filter
+ */
+
+.filter-panel > h3 {
+    margin-top: 0;
+}
+
+.filter-panel .filter-form .form-group {
+    padding-left: 0;
+}
+
+.filter-panel .filter-form .form-buttons {
+    margin-top: 10px;
+}
+
+.filter-range-input {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.filter-range-hyphen {
+    padding-top: 5px;
+    text-align: center;
+}
+
+/*
+ * Forms
+ */
+
+.node-menu .nav > li > a {
+    padding: 5px 10px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin: 2px 0 0;
+}
+
+.checkbox-list {
+    padding: 0 10px;
+    position: relative;
+}
+
+.checkbox-list .well-group-btn {
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    z-index: 1;
+    text-align: right;
+}
+
+.checkbox-list .well-group-btn .btn {
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+textarea + .input-group-btn {
+    vertical-align: top;
+}

@@ -1,0 +1,18 @@
+﻿@model SingleSelectFilterCondition
+
+@{
+    var index = (int)ViewData["index"];
+}
+
+<div class="form-group">
+    <label>@Model.Caption</label>
+    <input type="hidden" name="@Model.GetInputName(index, "Condition")" value="Equal" />
+    <input type="hidden" name="@Model.GetInputName(index, "Key")" value="@Model.Key" />
+    <select class="form-control input-sm" name="@Model.GetInputName(index, "Values")">
+        <option value="" @(Model.Value == null || Model.Value.Values == null ? "selected=selected" : null)></option>
+        @foreach (var item in Model.Dictionary)
+        {
+            <option value="@item.Value" @(Model.Value != null && Model.Value.Values != null && Model.Value.Values[0] == item.Value ? "selected=selected" : null)>@item.Text</option>
+        }
+    </select>
+</div>

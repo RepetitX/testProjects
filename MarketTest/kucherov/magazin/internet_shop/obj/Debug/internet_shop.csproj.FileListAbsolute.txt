@@ -1,0 +1,75 @@
+c:\users\glamurgirl\documents\visual studio 2012\Projects\internet_shop\obj\Debug\internet_shop.csprojResolveAssemblyReference.cache
+c:\users\glamurgirl\documents\visual studio 2012\Projects\internet_shop\bin\internet_shop.dll
+c:\users\glamurgirl\documents\visual studio 2012\Projects\internet_shop\bin\internet_shop.pdb
+c:\users\glamurgirl\documents\visual studio 2012\Projects\internet_shop\bin\Antlr3.Runtime.dll
+c:\users\glamurgirl\documents\visual studio 2012\Projects\internet_shop\bin\EntityFramework.dll
+c:\users\glamurgirl\documents\visual studio 2012\Projects\internet_shop\bin\Microsoft.Web.Infrastructure.dll
+c:\users\glamurgirl\documents\visual studio 2012\Projects\internet_shop\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+c:\users\glamurgirl\documents\visual studio 2012\Projects\internet_shop\bin\Newtonsoft.Json.dll
+c:\users\glamurgirl\documents\visual studio 2012\Projects\internet_shop\bin\System.Web.Mvc.dll
+c:\users\glamurgirl\documents\visual studio 2012\Projects\internet_shop\bin\System.Web.Optimization.dll
+c:\users\glamurgirl\documents\visual studio 2012\Projects\internet_shop\bin\System.Web.Providers.dll
+c:\users\glamurgirl\documents\visual studio 2012\Projects\internet_shop\bin\System.Web.Razor.dll
+c:\users\glamurgirl\documents\visual studio 2012\Projects\internet_shop\bin\System.Web.WebPages.Deployment.dll
+c:\users\glamurgirl\documents\visual studio 2012\Projects\internet_shop\bin\System.Web.WebPages.dll
+c:\users\glamurgirl\documents\visual studio 2012\Projects\internet_shop\bin\System.Web.WebPages.Razor.dll
+c:\users\glamurgirl\documents\visual studio 2012\Projects\internet_shop\bin\WebGrease.dll
+c:\users\glamurgirl\documents\visual studio 2012\Projects\internet_shop\bin\EntityFramework.xml
+c:\users\glamurgirl\documents\visual studio 2012\Projects\internet_shop\bin\Newtonsoft.Json.xml
+c:\users\glamurgirl\documents\visual studio 2012\Projects\internet_shop\bin\System.Web.Mvc.xml
+c:\users\glamurgirl\documents\visual studio 2012\Projects\internet_shop\bin\System.Web.Razor.xml
+c:\users\glamurgirl\documents\visual studio 2012\Projects\internet_shop\bin\System.Web.WebPages.xml
+c:\users\glamurgirl\documents\visual studio 2012\Projects\internet_shop\bin\System.Web.WebPages.Deployment.xml
+c:\users\glamurgirl\documents\visual studio 2012\Projects\internet_shop\bin\System.Web.WebPages.Razor.xml
+c:\users\glamurgirl\documents\visual studio 2012\Projects\internet_shop\bin\ru\EntityFramework.resources.dll
+c:\users\glamurgirl\documents\visual studio 2012\Projects\internet_shop\bin\ru\System.Web.Mvc.resources.dll
+c:\users\glamurgirl\documents\visual studio 2012\Projects\internet_shop\bin\ru\System.Web.Optimization.resources.dll
+c:\users\glamurgirl\documents\visual studio 2012\Projects\internet_shop\bin\ru\System.Web.Providers.resources.dll
+c:\users\glamurgirl\documents\visual studio 2012\Projects\internet_shop\bin\ru\System.Web.Razor.resources.dll
+c:\users\glamurgirl\documents\visual studio 2012\Projects\internet_shop\bin\ru\System.Web.WebPages.resources.dll
+c:\users\glamurgirl\documents\visual studio 2012\Projects\internet_shop\bin\ru\System.Web.WebPages.Deployment.resources.dll
+c:\users\glamurgirl\documents\visual studio 2012\Projects\internet_shop\bin\ru\System.Web.WebPages.Razor.resources.dll
+c:\users\glamurgirl\documents\visual studio 2012\Projects\internet_shop\obj\Debug\internet_shop.dll
+c:\users\glamurgirl\documents\visual studio 2012\Projects\internet_shop\obj\Debug\internet_shop.pdb
+C:\third party\test tasks\market test\kucherov\magazin\internet_shop\bin\internet_shop.dll
+C:\third party\test tasks\market test\kucherov\magazin\internet_shop\bin\internet_shop.pdb
+C:\third party\test tasks\market test\kucherov\magazin\internet_shop\bin\Antlr3.Runtime.dll
+C:\third party\test tasks\market test\kucherov\magazin\internet_shop\bin\EntityFramework.dll
+C:\third party\test tasks\market test\kucherov\magazin\internet_shop\bin\Microsoft.Web.Infrastructure.dll
+C:\third party\test tasks\market test\kucherov\magazin\internet_shop\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\third party\test tasks\market test\kucherov\magazin\internet_shop\bin\Newtonsoft.Json.dll
+C:\third party\test tasks\market test\kucherov\magazin\internet_shop\bin\System.Net.Http.Formatting.dll
+C:\third party\test tasks\market test\kucherov\magazin\internet_shop\bin\System.Web.Http.dll
+C:\third party\test tasks\market test\kucherov\magazin\internet_shop\bin\System.Web.Http.WebHost.dll
+C:\third party\test tasks\market test\kucherov\magazin\internet_shop\bin\System.Web.Mvc.dll
+C:\third party\test tasks\market test\kucherov\magazin\internet_shop\bin\System.Web.Optimization.dll
+C:\third party\test tasks\market test\kucherov\magazin\internet_shop\bin\System.Web.Providers.dll
+C:\third party\test tasks\market test\kucherov\magazin\internet_shop\bin\System.Web.Razor.dll
+C:\third party\test tasks\market test\kucherov\magazin\internet_shop\bin\System.Web.WebPages.Deployment.dll
+C:\third party\test tasks\market test\kucherov\magazin\internet_shop\bin\System.Web.WebPages.dll
+C:\third party\test tasks\market test\kucherov\magazin\internet_shop\bin\System.Web.WebPages.Razor.dll
+C:\third party\test tasks\market test\kucherov\magazin\internet_shop\bin\WebGrease.dll
+C:\third party\test tasks\market test\kucherov\magazin\internet_shop\bin\EntityFramework.xml
+C:\third party\test tasks\market test\kucherov\magazin\internet_shop\bin\Newtonsoft.Json.xml
+C:\third party\test tasks\market test\kucherov\magazin\internet_shop\bin\System.Net.Http.Formatting.xml
+C:\third party\test tasks\market test\kucherov\magazin\internet_shop\bin\System.Web.Http.xml
+C:\third party\test tasks\market test\kucherov\magazin\internet_shop\bin\System.Web.Http.WebHost.xml
+C:\third party\test tasks\market test\kucherov\magazin\internet_shop\bin\System.Web.Mvc.xml
+C:\third party\test tasks\market test\kucherov\magazin\internet_shop\bin\System.Web.Razor.xml
+C:\third party\test tasks\market test\kucherov\magazin\internet_shop\bin\System.Web.WebPages.xml
+C:\third party\test tasks\market test\kucherov\magazin\internet_shop\bin\System.Web.WebPages.Deployment.xml
+C:\third party\test tasks\market test\kucherov\magazin\internet_shop\bin\System.Web.WebPages.Razor.xml
+C:\third party\test tasks\market test\kucherov\magazin\internet_shop\bin\ru\EntityFramework.resources.dll
+C:\third party\test tasks\market test\kucherov\magazin\internet_shop\bin\ru\System.Net.Http.Formatting.resources.dll
+C:\third party\test tasks\market test\kucherov\magazin\internet_shop\bin\ru\System.Web.Http.resources.dll
+C:\third party\test tasks\market test\kucherov\magazin\internet_shop\bin\ru\System.Web.Http.WebHost.resources.dll
+C:\third party\test tasks\market test\kucherov\magazin\internet_shop\bin\ru\System.Web.Mvc.resources.dll
+C:\third party\test tasks\market test\kucherov\magazin\internet_shop\bin\ru\System.Web.Optimization.resources.dll
+C:\third party\test tasks\market test\kucherov\magazin\internet_shop\bin\ru\System.Web.Providers.resources.dll
+C:\third party\test tasks\market test\kucherov\magazin\internet_shop\bin\ru\System.Web.Razor.resources.dll
+C:\third party\test tasks\market test\kucherov\magazin\internet_shop\bin\ru\System.Web.WebPages.resources.dll
+C:\third party\test tasks\market test\kucherov\magazin\internet_shop\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\third party\test tasks\market test\kucherov\magazin\internet_shop\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\third party\test tasks\market test\kucherov\magazin\internet_shop\obj\Debug\internet_shop.csprojResolveAssemblyReference.cache
+C:\third party\test tasks\market test\kucherov\magazin\internet_shop\obj\Debug\internet_shop.dll
+C:\third party\test tasks\market test\kucherov\magazin\internet_shop\obj\Debug\internet_shop.pdb

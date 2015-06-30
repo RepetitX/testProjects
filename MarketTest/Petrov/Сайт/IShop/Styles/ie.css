@@ -1,0 +1,21 @@
+label.radio-inline input
+	{
+		position: static !important;
+		margin-left: 0 !important;
+	}
+	
+label.radio-inline span.radioImg
+	{
+		display: none;
+	}
+	
+.checkbox span.checkboxImg
+	{
+		display: none;
+	}
+	
+.checkbox input
+	{
+		position: static !important;
+		margin-left: 0 !important;
+	}

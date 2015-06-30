@@ -1,0 +1,44 @@
+﻿@model Order
+
+@{
+    ViewBag.PageTitle = Model.ToString();
+    Layout = null;
+}
+<div class="main">
+    @*<h2 class="page-header">@Model.ToString()</h2>*@
+    @if (TempData["RedirectToIndex"] != null && (bool)TempData["RedirectToIndex"])
+    {
+        <div id="new-participant-success" data-redirect="@Url.Action("Index")" class="alert alert-success" role="alert">Новый участник успешно зарегистрирован на мероприятие.</div>
+    }
+    @using (Html.BeginForm())
+    {
+        @Html.Hidden("ModelStateErrors", ViewData.ModelState.Values.Select(v => v.Errors.Count).Sum())
+        @Html.ValidationSummary()
+        @Html.AntiForgeryToken()
+        @Html.EditorForModel()
+        @Html.HiddenFor(c => c.CreateDateTime)
+        @Html.HiddenFor(c => c.Id)
+        <div class="form-group">
+            @if (Model.UserManagerDictionary != null)
+            {
+                <label>Ответственный менеджер</label>
+                @Html.DropDownListFor(c => c.UserManagerId, Model.UserManagerDictionary, new { @class = "form-control input-sm valid" })
+            }
+            else
+            {
+                <label>Ответственный менеджер</label>
+                <label>@Model.UserManagerName</label>
+                @Html.HiddenFor(c => c.UserManagerId)
+            }
+        </div>
+        <hr />
+        <div class="pull-right">
+            <button type="submit" class="btn btn-mb">Сохранить</button>
+            @Html.ActionLink("Закрыть", "Index", null, new { @class = "btn btn-mb" })
+        </div>
+        <div class="clearfix"></div>
+    }
+</div>
+<script>
+    $('#Phone').mask('+7 (999) 999-99-99');
+</script>

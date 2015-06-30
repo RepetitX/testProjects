@@ -1,0 +1,51 @@
+﻿@model Filter.FilterEdit
+
+<div class="save-filter">
+    <h2>Сохранить фильтр</h2>
+    @using (Html.BeginForm("SaveFilter", ViewContext.RouteData.Values["controller"].ToString(), FormMethod.Post, new { @class = "ajax-form" }))
+    { 
+        @Html.ValidationSummary(true)
+        <dl>
+            @{ var idProperty = ViewData.ModelMetadata.Properties.Single(p => p.PropertyName == "Id"); }
+            @if (idProperty.AdditionalValues.ContainsKey(DropDownListAttribute.Key))
+            {
+                <dt>@Html.LabelFor(m => m.Id)</dt>
+                <dd>
+                    @{
+                        var dropDownListOptions = idProperty.AdditionalValues[DropDownListAttribute.Key] as Tuple<string, string, string>;
+
+                        if (dropDownListOptions == null)
+                        {
+                            throw new ArgumentNullException();
+                        }
+
+                        var sourceProperty = dropDownListOptions.Item1;
+                        var optionLabel = dropDownListOptions.Item2;
+                        var css = dropDownListOptions.Item3;
+
+                        var source = ViewData.ModelMetadata.Properties.First(x => x.PropertyName == sourceProperty).Model as IEnumerable<SelectListItem>;
+                    }
+                    @Html.DropDownList(idProperty.PropertyName, source, optionLabel, new { @class = css + (idProperty.IsRequired ? " required" : "") })
+                </dd>
+            }
+            else
+            {
+                    @Html.HiddenFor(m => m.Id)
+            }
+
+            <dt>@Html.LabelFor(m=> m.Name)</dt>
+            <dd>
+                @Html.EditorFor(m => m.Name) 
+                @Html.ValidationMessageFor(m => m.Name) 
+            </dd>
+
+            <dt></dt>
+            <dd>@Html.EditorFor(m => m.IsShared)</dd>
+        </dl>
+        <br/>
+        <div class="btn-left">
+            <input type="submit" value="Сохранить" class="button green-button">
+            <a class="button toggle-save-filter-form" href="#">Отмена</a>
+        </div>
+    }
+</div>

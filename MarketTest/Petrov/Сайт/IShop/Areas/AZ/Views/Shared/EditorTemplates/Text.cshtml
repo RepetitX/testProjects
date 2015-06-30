@@ -1,0 +1,17 @@
+﻿@using Common.Core
+@Html.HiddenFor(m => m)
+@if (Model is bool)
+{
+    <p class="form-control-static">
+        <span class="glyphicon glyphicon-@(Model ? "check" : "unchecked")"></span>
+        @ViewData.ModelMetadata.DisplayName
+    </p>
+}
+else if (Model is Enum)
+{
+    <p class="form-control-static">@((Model as Enum).GetDescription())</p>
+}
+else
+{
+    <p class="form-control-static">@Model</p>
+}

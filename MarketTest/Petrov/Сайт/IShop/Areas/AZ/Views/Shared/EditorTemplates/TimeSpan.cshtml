@@ -1,0 +1,9 @@
+﻿@{
+    var modelValue = ViewData.Model == null || ((TimeSpan)ViewData.Model) == TimeSpan.MinValue
+        ? ""
+        : ((TimeSpan)ViewData.Model).ToString(@"h\:mm");
+        
+    var cls = ViewData.ModelMetadata.IsRequired ? "required" : ""; 
+}
+
+@Html.TextBox("", modelValue, new { @class = "time-ru-input " + cls + " form-control input-sm" })

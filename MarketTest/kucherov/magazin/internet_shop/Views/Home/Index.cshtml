@@ -1,0 +1,260 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<script type="text/javascript">
+    var goods, manager, it = 0, idcount = 0;
+    window.onload = function () { Sol(); Select();}
+    function Sol() {
+        jQuery.support.cors = true;
+        $.ajax({
+            async: false,
+            url: 'http://localhost:53356/api/value/',
+            type: 'GET',
+            dataType: 'json',
+            contentType: "application/json;charset=utf-8",
+            success: function (data) {
+                goods = data;
+                for (var i = 0; i < data.length; i++) {
+                    var jsItem = document.createElement('option');
+                    jsItem.innerHTML = data[i][0];
+                    $('#langs').append(jsItem);
+                }
+            },
+            error: function (x, y, z) {
+                alert("ERROR " + x + '\n' + y + '\n' + z);
+            }
+        });
+
+        $.ajax({
+            async: false,
+            url: 'http://localhost:53356/api/value/' + (-1),
+            type: 'GET',
+            dataType: 'json',
+            contentType: "application/json;charset=utf-8",
+            success: function (data) {
+                manager = data;
+                for (var i = 0; i < data.length; i++) {
+                    $('#man').append('<option label="'+ data[i] +'" value='+data[i]+'>'+data[i]+'</option>');
+                }
+            },
+            error: function (x, y, z) {
+                alert("WRONG " + x + '\n' + y + '\n' + z);
+            }
+        });
+    }
+
+    function Select() {
+        var parent = document.getElementById('options');
+        if (parent.childElementCount != 0) $("#options").empty();
+        
+        var i = 0, j = 1;
+        var p = document.getElementById('langs').value;
+        for (var k = 0; k < goods.length; k++)
+        {
+            if (p == goods[k][0]) i = k;
+        }
+        
+        while (goods[i][j] != null) {
+            $('#options').append('<p><input type="checkbox" class="tra" id="'+j+'" value="'+goods[i][j]+'">'+goods[i][j]+'</p>');
+            j++;
+        }
+    }
+
+    function Add() {
+        var s = "add" + it;
+        $('#order').append('<div class="add_order" value="' + document.getElementById('langs').value + '" id="' + s + '">' + document.getElementById('langs').value + '</div>');
+        if (idcount < it) idcount = it; 
+        $('#'+s+'').append('<p><input type="button" onclick="Del('+ it + ')" name="'+s+'" value="Delete"></p>');
+
+        var i = 1, j = 100;
+        var p = document.getElementById(1);
+        while (p != null) {
+            if (p.checked) {
+                $('#'+s+'').append('<p><input type="checkbox" checked="' + true + '" id="' + j++ + s + '" value="' + p.value + '">' + p.value + '</p>');
+            }
+            else $('#'+s+'').append('<p><input type="checkbox" id="' + j++ + s + '" value="' + p.value + '">' + p.value + '</p>');
+            i++;
+            p = document.getElementById(i);
+        }
+        it++;
+    }
+
+    function Del(it) {
+        if (it == idcount) idcount--;
+        $('#add' + it + '').remove();
+    }
+   
+    function Order() {
+        var i = 0;
+        var product = [];
+        while (i <= idcount) //надо придумать что нибудь
+        {
+            s = 'add' + i;
+            if (document.getElementById('add' + i) != null) {
+                product[product.length] = [];
+                product[product.length - 1][0] = document.getElementById('add' + i).getAttribute('value');
+                var j = 100;
+                var p = document.getElementById(j + ("add"+ i));
+                j++;
+                var g = 1;
+                while (p != null) {
+                    if (p.checked) {
+                        product[product.length - 1][g++] = p.value;
+                    }
+                    p = document.getElementById(j + ("add" + i));
+                    j++;
+                }
+            }
+            i++;
+        }
+        if (document.getElementById('adress').value == "") { alert("Введите адрес"); return; }
+        if (document.getElementById('contact').value == "") { alert("Введите контактные данные"); return; }
+        if (document.getElementById('man').value == "Не выбран") { alert("Выберите менеджера"); return; }
+        if (product.length == 0) { alert("Вы ничего не выбрали" + "\n" + "Сделайте ваш заказ"); return; }
+        var q = {
+            time_order: Date.now,
+            manager_order: manager[document.getElementById('man').selectedIndex - 1],
+            address_order: document.getElementById('adress').value,
+            contact_data: document.getElementById('contact').value,
+            comments: document.getElementById('comment').value,
+            tools: product
+        };
+        $.ajax({
+            async: false,
+            url: 'http://localhost:53356/api/value/',
+            type: 'POST',
+            data: JSON.stringify(q),
+            dataType: 'json',
+            contentType: "application/json;charset=utf-8",
+            success: function (data) {
+                alert("Ваш заказ успешно принят");
+            },
+            error: function (x, y, z) {
+                alert("Ошибка, заказ не принят" + x + '\n' + y + '\n' + z);
+            }
+        });
+
+        $.ajax({
+            async: false,
+            url: 'http://localhost:53356/api/value/' + (-2),
+            type: 'GET',
+            dataType: 'json',
+            contentType: "application/json;charset=utf-8",
+            success: function (data) {
+                alert(data);
+            },
+            error: function (x, y, z) {
+                alert("Номер заказа неизвестен" + x + '\n' + y + '\n' + z);
+            }
+        });
+    }
+
+    function Search() {
+        var n = document.getElementById('numer_order').value;
+        if (n == "") { alert("Введите номер"); return; }
+        if (n < 0) { alert("Введите положительный номер заказа"); return; }
+        $.ajax({
+            async: false,
+            url: 'http://localhost:53356/api/value/' + n,
+            type: 'GET',
+            dataType: 'json',
+            contentType: "application/json;charset=utf-8",
+            success: function (data) {
+                if (data.manager_order == "Not order")
+                {
+                    alert("С таким номером нет заказа, попробуйте ввести ещё раз");
+                    return;
+                };
+                alert("Загрузка заказа прошла успешно" + '\n' + "Дата вашего заказа " + data.time_order);
+                document.getElementById('adress').value = data.address_order;
+                document.getElementById('contact').value = data.contact_data;
+                document.getElementById('comment').value = data.comments;
+                var pa = 0;
+                while (pa < manager.length)
+                {
+                    if (manager[pa] == data.manager_order)
+                    {
+                        document.getElementById('man').selectedIndex = pa + 1;
+                    }
+                    pa++;
+                }
+
+                $('#order').empty();
+                idcount = 0;
+                it = 0;
+                var i = 0, j = 0;
+                while (data.tools[i][j] != null) {
+                    var s = "add" + it;
+                    $('#order').append('<div class="add_order" value="' + data.tools[i][j] + '" id="' + s + '">' + data.tools[i][j] + '</div>');
+                    if (idcount < it) idcount = it;
+                    j++;
+
+                    $('#' + s + '').append('<p><input type="button" onclick="Del(' + it + ')" name="' + s + '" value="Delete"></p>');
+
+                    var k = 1, m = 100;
+                    while (data.tools[i][j] != null) {
+                        $('#' + s + '').append('<p><input type="checkbox" checked="' + true + '" id="' + m++ + s + '" value="' + data.tools[i][j] + '">' + data.tools[i][j] + '</p>');
+                        j++;
+                    }
+                    i++;
+                    j = 0;
+                    it++;
+                }
+            },
+            error: function (x, y, z) {
+                alert("Номер заказа некорректный");
+            }
+        });
+    }
+
+</script>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link type="text/css" rel="stylesheet" href="Content/site.css" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Internet Magazin</title>
+</head>
+<body>
+    <h1>Добро пожаловать в наш Интернет магазин!</h1>
+    <div>
+        <!--<select>
+            @for(var i = 0; i < 4; i++){
+                <option value="i">@i</option>
+            }
+        </select>-->
+        <div id="forma">Оформление заказа</div>
+        <div id="search">Для редактирования заказа введите номер</div>
+        <p id="manager">Выбирите менеджера <select name="mana" id="man"><option>Не выбран</option></select></p>
+        <p id="n_or"><input name ="number" id="numer_order"/></p>
+        <br />
+        <p id="id_adress">Адрес доставки <input maxlength="19" name="Adress" id="adress" /></p>
+        <div id="ser_order" onclick="Search()" class="button"><h3>Найти заказ</h3></div>
+        <!--<p style="text-align: center"><input type="button" onclick="Search()" value ="Найти заказ"/></p>-->
+        <br> <br>
+        
+        <p id="id_contact">Контактные данные <input maxlength="19" name="Contact" id="contact" /></p>
+        <br />
+        <p id="id_comment">Комментарии <input maxlength="19" name="Comment" id="comment" /></p>
+
+        <!--<button id="buttonId" onclick="Sol()">Выбрать товары и опционы</button>-->
+        <p id="id_langs">Выберите товар <select onchange="Select()" id="langs"></select></p>
+        <p style="margin-left:20px">Выберите опцион</p>
+        <div id="options">
+        </div>
+        <!--<button onclick="Add()">Добавить товар в корзину</button>-->
+        <div id="id_Add" onclick="Add()" class="button"><h3>Добавить товар в корзину</h3></div>
+        <div id="order">
+        
+        </div>
+        <!--<button id="totable" onclick="Order()">Заказать</button>-->
+        <div id="id_order" onclick="Order()" class="button"><h3>Заказать</h3></div>
+        
+    </div>
+    
+</body>
+</html>
